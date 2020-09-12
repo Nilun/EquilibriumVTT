@@ -46,16 +46,234 @@
 			},
 		  "skills": {
 
-				"One Hand": 
+				"One_Hand": 
 				{
 					"focus": "Swiftness",
 					"value": 0,
 					"min": 0,
 					"max": 5
 				},
-				"Light One Hand": 
+				"Light_One_Hand": 
 				{
 					"focus": "Malice",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Two Hand": 
+				{
+					"focus": "Brutality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Throwing": 
+				{
+					"focus": "Malice",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Archery": 
+				{
+					"focus": "Brutality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Bodybuilding": 
+				{
+					"focus": "Vitality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Parry": 
+				{
+					"focus": "Vitality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Elemental_Magic": 
+				{
+					"focus": "Spirit",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Occult_Magic": 
+				{
+					"focus": "Malice",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Primordial_Magic": 
+				{
+					"focus": "Brutality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Mage_Weaponery": 
+				{
+					"focus": "Swiftness",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Infusion": 
+				{
+					"focus": "Spirit",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Resistance": 
+				{
+					"focus": "Vitality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Magic_Identification": 
+				{
+					"focus": "Swiftness",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Stealth": 
+				{
+					"focus": "Malice",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Survival": 
+				{
+					"focus": "Swiftness",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Perception": 
+				{
+					"focus": "Spirit",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Speechcraft": 
+				{
+					"focus": "Malice",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"History": 
+				{
+					"focus": "Spirit",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Medic": 
+				{
+					"focus": "Spirit",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Empath": 
+				{
+					"focus": "Swiftness",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Athletism": 
+				{
+					"focus": "Brutality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Dodge": 
+				{
+					"focus": "Vitality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Craft_Forge": 
+				{
+					"focus": "Brutality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+
+				"Craft_Tinker": 
+				{
+					"focus": "Swiftness",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},"Craft_Medical": 
+				{
+					"focus": "Spirit",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Craft_Poison": 
+				{
+					"focus": "Malice",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Intimidation": 
+				{
+					"focus": "Brutality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Art": 
+				{
+					"focus": "Swiftness",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+
+				"Shadowcraft": 
+				{
+					"focus": "Malice",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Disrupt": 
+				{
+					"focus": "Brutality",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Teaching": 
+				{
+					"focus": "Spirit",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Animal_Handling": 
+				{
+					"focus": "Spirit",
 					"value": 0,
 					"min": 0,
 					"max": 5
