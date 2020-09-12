@@ -2,7 +2,9 @@
 import { SimpleActor } from "./actor.js";
 import { SimpleItemSheet } from "./item-sheet.js";
 import { SimpleActorSheet } from "./actor-sheet.js";
-
+import { PassifItemSheet } from "./passif-sheet.js";
+import { ComponentItemSheet } from "./component-sheet.js";
+import { SpellItemSheet } from "./spell-sheet.js";
 /* -------------------------------------------- */
 /*  Foundry VTT Initialization                  */
 /* -------------------------------------------- */
@@ -100,7 +102,10 @@ Hooks.once("init", async function () {
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("equilibrium", SimpleActorSheet, { makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("equilibrium", SimpleItemSheet, { makeDefault: true });
+  Items.registerSheet("equilibrium", SimpleItemSheet, {makeDefault: true}); 
+  Items.registerSheet("equilibrium", PassifItemSheet, {makeDefault: false}); 
+  Items.registerSheet("equilibrium", ComponentItemSheet, {makeDefault: false}); 
+  Items.registerSheet("equilibrium", SpellItemSheet, {makeDefault: false}); 
 
   // Register system settings
   game.settings.register("worldbuilding", "macroShorthand", {

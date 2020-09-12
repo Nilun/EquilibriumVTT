@@ -1,0 +1,59 @@
+<form>
+    <header class="sheet-header">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+        <div class="header-fields">
+            <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+                   </div>
+    </header>
+    <table>
+        <tr>
+            <td>
+                <label>Portée</label>
+                <input type="number" style="width: 50px;" min="0" max="30" name="data.portée" value="{{data.portée}}" data-dtype="Number"/>
+            </td>
+            <td>
+                <h3>cout</h3>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label>Brut</label> <input type="text" style="width: 50px;" name="data.Brutality" value="{{data.Brutality}}" data-dtype="text"/>
+                                      </td> 
+                                      <td></td>                       
+                    </tr>
+                    <tr>
+                        <td> <label>Vita</label>  <input type="text" style="width: 50px;" name="data.Vitality" value="{{data.Vitality}}" data-dtype="text"/>
+                        </td>
+                        <td></td>
+                        <td><label>Swif</label>  <input type="text" style="width: 50px;" name="data.Swiftness" value="{{data.Swiftness}}" data-dtype="text"/>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><label>Mali</label>  <input type="text" style="width: 50px;" name="data.Malice" value="{{data.Malice}}" data-dtype="text"/>
+                        </td>
+                        <td></td>
+                        <td><label>Spir</label>  <input type="text" style="width: 50px;" name="data.Spirit" value="{{data.Spirit}}" data-dtype="text"/>
+                        </td>
+
+                    </tr>
+                </table>
+                 
+            </td>
+        </tr>
+        <tr>
+            <td> <label>Element</label>
+                <input type="text" style="width: 150px;"  name="data.element" value="{{data.element}}" data-dtype="text"/>                   
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    
+   <div>
+  
+</div>
+    <label>desctiption</label>
+    {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}
+
+
+</form>
