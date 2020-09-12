@@ -298,6 +298,24 @@
 			"niveau":"",
 			"niveau max":"",
 			"tag":""
+		},
+		"sort" :
+		{
+			"cout":"",
+			"portée":"",
+			"element":"",
+			"component":[]
+		},
+		"component":
+		{
+			"id":"",
+			"Element":"",
+			"PriceString":"",
+			"IsForm":"",
+			"Range":"",
+			"Area":"",
+			"text":""
 		}
+		
 	}
 }
