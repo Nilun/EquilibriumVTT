@@ -1,55 +1,78 @@
 {
-"Actor": {
-  "types": ["character"],
-  "character": {
-		"biography": "",
-		"health": {
-		  "value": 10,
-		  "min": -100,
-		  "max": 100
-		},
-		"attributes": {
-		"level": {
-			  "value": 1,
-		  "min": 1,
-		  "max": 1
-			}},
-		"focus": {
-			"Brutality": {
-			  "value": 1,
-		  "min": 0,
-		  "max": 20
+	"Actor": {
+		"types": [
+			"character"
+		],
+		"character": {
+			"biography": "",
+			"health": {
+				"value": 10,
+				"min": -100,
+				"max": 100
 			},
-			"Vitality": {
-			  "value": 1,
-		  "min": 0,
-		  "max": 1
+			"attributes": {
+				"level": {
+					"value": 1,
+					"min": 1,
+					"max": 20
+				}
 			},
-			"Swiftness": {
-			  "value": 1,
-		  "min": -0,
-		  "max": 1
+			"focus": {
+				"Brutality": {
+					"value": 1,
+					"min": 0,
+					"max": 20
+				},
+				"Vitality": {
+					"value": 1,
+					"min": 0,
+					"max": 20
+				},
+				"Swiftness": {
+					"value": 1,
+					"min": -0,
+					"max": 20
+				},
+				"Spirit": {
+					"value": 1,
+					"min": -0,
+					"max": 20
+				},
+				"Malice": {
+					"value": 1,
+					"min": -0,
+					"max": 20
+				}
 			},
-			"Spirit": {
-			  "value": 1,
-		  "min": -0,
-		  "max": 1
-			},
-			"Malice": {
-			  "value": 1,
-		  "min": -0,
-		  "max": 1
+		  "skills": {
+
+				"One Hand": 
+				{
+					"focus": "Swiftness",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				},
+				"Light One Hand": 
+				{
+					"focus": "Malice",
+					"value": 0,
+					"min": 0,
+					"max": 5
+				}
+				
 			}
-		  }
-  }
-},
-"Item": {
-  "types": ["item"],
-  "item": {
-    "description": "",
-    "quantity": 1,
-    "weight": 0,
-    "attributes": {}
-  }
-}
+		}
+	},
+	"Item": {
+		"types": [
+			"item"
+		],
+		"item": {
+			"description": "",
+			"quantity": 1,
+			"weight": 0,
+			"attributes": {}
+		}
+	}
 }
