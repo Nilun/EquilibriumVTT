@@ -278,16 +278,26 @@
 				
 			}
 		}
-	},
+	},	
 	"Item": {
 		"types": [
-			"item"
+			"item","passif"
 		],
 		"item": {
 			"description": "",
 			"quantity": 1,
 			"weight": 0,
 			"attributes": {}
+		},
+		"passif" :
+		{
+			"name:":"",
+			"supCat":"",
+			"cat":"",
+			"description": "",
+			"niveau":"",
+			"niveau max":"",
+			"tag":""
 		}
 	}
 }
