@@ -1,9 +1,3 @@
-/**
- * A simple and flexible system for world-building using an arbitrary collection of character and item attributes
- * Author: Atropos
- * Software License: GNU GPLv3
- */
-
 // Import Modules
 import { SimpleActor } from "./actor.js";
 import { SimpleItemSheet } from "./item-sheet.js";
@@ -21,8 +15,46 @@ Hooks.once("init", async function() {
 	 * @type {String}
 	 */
 	CONFIG.Combat.initiative = {
-	  formula: "1d20",
+	  formula: "1d4",
     decimals: 2
+  };
+
+  CONFIG.EQUILIBRIUM = {};
+
+  CONFIG.EQUILIBRIUM.skills = {
+    "One_Hand": "One Hand",
+    "Light_One_Hand": "Light One Hand",
+    "Two_Hand": "Two Hand",
+    "Throwing": "Throwing",
+    "Archery": "Archery",
+    "Bodybuilding": "Bodybuilding",
+    "Parry": "Parry",
+    "Elemental_Magic": "Elemental Magic",
+    "Occult_Magic": "Occult Magic",
+    "Primordial_Magic": "Primordial Magic",
+    "Mage_Weaponery": "Mage Weaponery",
+    "Infusion": "Infusion",
+    "Resistance": "Resistance",
+    "Magic_Identification": "Magic Identification",
+    "Stealth": "Stealth",
+    "Survival": "Survival",
+    "Perception": "Perception",
+    "Speechcraft": "Speechcraft",
+    "History": "History",
+    "Medic": "Medic",
+    "Empath": "Empath",
+    "Athletism": "Athletism",
+    "Dodge": "Dodge",
+    "Craft_Forge": "Craft Forge",
+    "Craft_Tinker": "Craft Tinker",
+    "Craft_Medical": "Craft Medical",
+    "Craft_Poison": "Craft Poison",
+    "Intimidation": "Intimidation",
+    "Art": "Art",
+    "Shadowcraft": "Shadowcraft",
+    "Disrupt": "Disrupt",
+    "Teaching": "Teaching",
+    "Animal_Handling": "Animal Handling",
   };
 
 	// Define custom Entity classes
@@ -30,9 +62,9 @@ Hooks.once("init", async function() {
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("dnd5e", SimpleActorSheet, { makeDefault: true });
+  Actors.registerSheet("equilibrium", SimpleActorSheet, { makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("dnd5e", SimpleItemSheet, {makeDefault: true});
+  Items.registerSheet("equilibrium", SimpleItemSheet, {makeDefault: true});
 
   // Register system settings
   game.settings.register("worldbuilding", "macroShorthand", {
@@ -43,4 +75,6 @@ Hooks.once("init", async function() {
     default: true,
     config: true
   });
+
+  console.log("Initialized equilibrium")
 });

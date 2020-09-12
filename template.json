@@ -60,7 +60,7 @@
 					"min": 0,
 					"max": 5
 				},
-				"Two Hand": 
+				"Two_Hand": 
 				{
 					"focus": "Brutality",
 					"value": 0,

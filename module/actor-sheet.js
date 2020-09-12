@@ -25,6 +25,13 @@ export class SimpleActorSheet extends ActorSheet {
     for ( let attr of Object.values(data.data.attributes) ) {
       attr.isCheckbox = attr.dtype === "Boolean";
     }
+
+    if (data.actor.data.skills) {
+      for ( let [s, skl] of Object.entries(data.actor.data.skills)) {
+        skl.label = CONFIG.EQUILIBRIUM.skills[s];
+      }
+    }
+
     return data;
   }
 
