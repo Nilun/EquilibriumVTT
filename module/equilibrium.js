@@ -7,15 +7,15 @@ import { SimpleActorSheet } from "./actor-sheet.js";
 /*  Foundry VTT Initialization                  */
 /* -------------------------------------------- */
 
-Hooks.once("init", async function() {
+Hooks.once("init", async function () {
   console.log(`Initializing Simple Worldbuilding System`);
 
-	/**
-	 * Set an initiative formula for the system
-	 * @type {String}
-	 */
-	CONFIG.Combat.initiative = {
-	  formula: "1d4",
+  /**
+   * Set an initiative formula for the system
+   * @type {String}
+   */
+  CONFIG.Combat.initiative = {
+    formula: "1d4",
     decimals: 2
   };
 
@@ -57,14 +57,50 @@ Hooks.once("init", async function() {
     "Animal_Handling": "Animal Handling",
   };
 
-	// Define custom Entity classes
+  CONFIG.EQUILIBRIUM.skillCategory = {
+    "One_Hand" : "war",
+    "Light_One_Hand": "war",
+    "Two_Hand": "war",
+    "Throwing": "war",
+    "Archery": "war",
+    "Bodybuilding": "war",
+    "Parry": "war",
+    "Elemental_Magic": "magic",
+    "Occult_Magic": "magic",
+    "Primordial_Magic": "magic",
+    "Mage_Weaponery": "magic",
+    "Infusion": "magic",
+    "Resistance": "magic",
+    "Magic_Identification": "magic",
+    "Stealth": "other",
+    "Survival": "other",
+    "Perception": "other",
+    "Speechcraft": "other",
+    "History": "other",
+    "Medic": "other",
+    "Empath": "other",
+    "Athletism": "other",
+    "Dodge": "other",
+    "Craft_Forge": "other",
+    "Craft_Tinker": "other",
+    "Craft_Medical": "other",
+    "Craft_Poison": "other",
+    "Intimidation": "other",
+    "Art": "other",
+    "Shadowcraft": "other",
+    "Disrupt": "other",
+    "Teaching": "other",
+    "Animal_Handling": "other"
+  };
+
+  // Define custom Entity classes
   CONFIG.Actor.entityClass = SimpleActor;
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("equilibrium", SimpleActorSheet, { makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("equilibrium", SimpleItemSheet, {makeDefault: true});
+  Items.registerSheet("equilibrium", SimpleItemSheet, { makeDefault: true });
 
   // Register system settings
   game.settings.register("worldbuilding", "macroShorthand", {

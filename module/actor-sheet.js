@@ -26,9 +26,28 @@ export class SimpleActorSheet extends ActorSheet {
       attr.isCheckbox = attr.dtype === "Boolean";
     }
 
+    data.actor.data.skillCategory = {
+      "war": {},
+      "magic": {},
+      "other": {}
+    };
+    
+    
+    for ( let [f, focus] of Object.entries(data.actor.data.focus)) {
+      focus.max = 1;
+    }
+
     if (data.actor.data.skills) {
       for ( let [s, skl] of Object.entries(data.actor.data.skills)) {
+        if (skl.value > 5)
+          skl.value = 5;
+          if (skl.value < 0)
+          skl.value = 0;
         skl.label = CONFIG.EQUILIBRIUM.skills[s];
+        skl.category = CONFIG.EQUILIBRIUM.skillCategory[s];
+        data.actor.data.skillCategory[skl.category][s] = skl;
+
+        data.actor.data.focus[skl.focus].max += skl.value;
       }
     }
 
