@@ -281,7 +281,7 @@
 	},	
 	"Item": {
 		"types": [
-			"item","passif"
+			"item","passif","sort","component"
 		],
 		"item": {
 			"description": "",
