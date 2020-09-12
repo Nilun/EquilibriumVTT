@@ -49,6 +49,39 @@
   width:20%;
   height: 28px;
 }
+
+.Equilibrium .skill-value {
+  flex: 0 0 28px;
+  text-align: center;
+  min-width: 0;
+}
+
+.Equilibrium .skill-name {
+  flex: 1px;
+  margin: 0
+}
+
+.Equilibrium .skill {
+  padding: 3px;
+  height: 28px;
+}
+
+.Equilibrium .skill-focus {
+  flex: 1px;
+  margin: 0;
+  text-align: right;
+  color: #7a7971
+}
+
+.Equilibrium .skill-category {
+  border: 2px groove #eeede0;
+  padding: 2px;
+}
+
+.Equilibrium .skills-list {
+  padding: 0;
+}
+
 .Equilibrium .tabs {
   height: 40px;
   border-top: 1px solid #AAA;

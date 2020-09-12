@@ -75,34 +75,47 @@
             </div>
 
         </div>
-        <div class="tab skills" data-group="primary" data-tab="skills">
-            <h3>War skills</h3>
-            <ul class="skills-list">
-            {{#each data.skillCategory.war as |skill s|}}
-                <li class="skill flexrow" data-skill="{{s}}">
-                    <h4 class="skill-name rollable">{{skill.label}} ({{skill.focus}})</h4>
-                    <input name="data.skills.{{s}}.value" value="{{skill.value}}" data-dtype="Number"/>
-                </li>
-            {{/each}}
-            </ul>
-            <h3>Magic skills</h3>
-            <ul class="skills-list">
-            {{#each data.skillCategory.magic as |skill s|}}
-                <li class="skill flexrow" data-skill="{{s}}">
-                    <h4 class="skill-name rollable">{{skill.label}} ({{skill.focus}})</h4>
-                    <input name="data.skills.{{s}}.value" value="{{skill.value}}" data-dtype="Number"/>
-                </li>
-            {{/each}}
-            </ul>
-            <h3>Adventuring skills</h3>
-            <ul class="skills-list">
-            {{#each data.skillCategory.other as |skill s|}}
-                <li class="skill flexrow" data-skill="{{s}}">
-                    <h4 class="skill-name rollable">{{skill.label}} ({{skill.focus}})</h4>
-                    <input name="data.skills.{{s}}.value" value="{{skill.value}}" data-dtype="Number"/>
-                </li>
-            {{/each}}
-            </ul>
+        <div class="tab skills flexrow" data-group="primary" data-tab="skills">
+            <div class="skill-column">
+                <div class="skill-category">
+                    <h3>War skills</h3>
+                    <ul class="skills-list">
+                    {{#each data.skillCategory.war as |skill s|}}
+                        <li class="skill flexrow" data-skill="{{s}}">
+                            <h4 class="skill-name rollable">{{skill.label}}</h4>
+                            <span class="skill-focus">({{skill.focus}})</span>
+                            <input name="data.skills.{{s}}.value" value="{{skill.value}}" data-dtype="Number" class="skill-value"/>
+                        </li>
+                    {{/each}}
+                    </ul>
+                </div>
+                    <div class="skill-category">
+                    <h3>Magic skills</h3>
+                    <ul class="skills-list">
+                    {{#each data.skillCategory.magic as |skill s|}}
+                        <li class="skill flexrow" data-skill="{{s}}">
+                            <h4 class="skill-name rollable">{{skill.label}}</h4>
+                            <span class="skill-focus">({{skill.focus}})</span>
+                            <input name="data.skills.{{s}}.value" value="{{skill.value}}" data-dtype="Number" class="skill-value"/>
+                        </li>
+                    {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <div class="skill-column">
+                <div class="skill-category">
+                    <h3>Adventuring skills</h3>
+                    <ul class="skills-list">
+                    {{#each data.skillCategory.other as |skill s|}}
+                        <li class="skill flexrow" data-skill="{{s}}">
+                            <h4 class="skill-name rollable">{{skill.label}}</h4>
+                            <span class="skill-focus">({{skill.focus}})</span>
+                            <input name="data.skills.{{s}}.value" value="{{skill.value}}" data-dtype="Number" class="skill-value"/>
+                        </li>
+                    {{/each}}
+                    </ul>
+                </div>
+            </div>
         </div>
 
         {{!-- Owned Items Tab --}}
