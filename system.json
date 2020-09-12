@@ -3,8 +3,8 @@
   "title": "Equilibrium Role Play System",
   "description": ".",
   "version": 0.01,
-  "minimumCoreVersion": "0.5.6",
-  "compatibleCoreVersion": "0.5.7",
+  "minimumCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "0.6.6",
   "templateVersion": 2,
   "author": "Nilun",
   "esmodules": ["module/equilibrium.js"],
@@ -15,8 +15,8 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "license": "LICENSE.txt"
+  "url": "https://github.com/Nilun/EquilibriumVTT",
+  "manifest": "https://raw.githubusercontent.com/Nilun/EquilibriumVTT/master/system.json",
+  "license": "LICENSE.txt",
+  "download": "https://github.com/Nilun/EquilibriumVTT/archive/v0.1-alpha.zip"
 }
