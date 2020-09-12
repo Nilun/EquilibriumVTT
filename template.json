@@ -45,7 +45,6 @@
 				}
 			},
 		  "skills": {
-
 				"One_Hand": 
 				{
 					"focus": "Swiftness",
@@ -214,7 +213,6 @@
 					"min": 0,
 					"max": 5
 				},
-
 				"Craft_Tinker": 
 				{
 					"focus": "Swiftness",
@@ -249,7 +247,6 @@
 					"min": 0,
 					"max": 5
 				},
-
 				"Shadowcraft": 
 				{
 					"focus": "Malice",
