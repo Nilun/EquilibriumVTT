@@ -301,6 +301,7 @@
 		},
 		"sort" :
 		{
+			"name":"",
 			"cout":"",
 			"portée":"",
 			"element":"",
@@ -309,6 +310,7 @@
 		"component":
 		{
 			"id":"",
+			"name":"",
 			"Element":"",
 			"PriceString":"",
 			"IsForm":"",
