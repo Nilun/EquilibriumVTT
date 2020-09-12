@@ -1,0 +1,55 @@
+{
+"Actor": {
+  "types": ["character"],
+  "character": {
+		"biography": "",
+		"health": {
+		  "value": 10,
+		  "min": -100,
+		  "max": 100
+		},
+		"attributes": {
+		"level": {
+			  "value": 1,
+		  "min": 1,
+		  "max": 1
+			}},
+		"focus": {
+			"Brutality": {
+			  "value": 1,
+		  "min": 0,
+		  "max": 20
+			},
+			"Vitality": {
+			  "value": 1,
+		  "min": 0,
+		  "max": 1
+			},
+			"Swiftness": {
+			  "value": 1,
+		  "min": -0,
+		  "max": 1
+			},
+			"Spirit": {
+			  "value": 1,
+		  "min": -0,
+		  "max": 1
+			},
+			"Malice": {
+			  "value": 1,
+		  "min": -0,
+		  "max": 1
+			}
+		  }
+  }
+},
+"Item": {
+  "types": ["item"],
+  "item": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "attributes": {}
+  }
+}
+}

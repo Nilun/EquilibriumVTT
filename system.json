@@ -1,0 +1,22 @@
+{
+  "name": "Equilibrium",
+  "title": "Equilibrium Role Play System",
+  "description": ".",
+  "version": 0.01,
+  "minimumCoreVersion": "0.5.6",
+  "compatibleCoreVersion": "0.5.7",
+  "templateVersion": 2,
+  "author": "Nilun",
+  "esmodules": ["module/equilibrium.js"],
+  "styles": ["styles/equilibrium.css"],
+  "packs": [],
+  "languages": [],
+  "gridDistance": 1.5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}
