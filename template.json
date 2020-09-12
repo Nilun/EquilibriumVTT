@@ -301,14 +301,21 @@
 		},
 		"sort" :
 		{
-			"cout":"",
+			"name":"",
+			"Brutality": "",
+			"Vitality": "",
+			"Swiftness": "",
+			"Spirit":"",
+			"Malice": "",
 			"portée":"",
 			"element":"",
+			"desctiption":"",
 			"component":[]
 		},
 		"component":
 		{
 			"id":"",
+			"name":"",
 			"Element":"",
 			"PriceString":"",
 			"IsForm":"",
