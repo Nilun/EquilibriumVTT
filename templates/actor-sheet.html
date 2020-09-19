@@ -5,14 +5,47 @@
         <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
         <div class="header-fields">
             <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
-            <div class="resource">
-                Life
-                <input type="text" class="SmallBox" name="data.health.value" value="{{data.health.value}}"
-                    data-dtype="Number" />
-                <span> / </span>
-                <input readonly type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number" />
-            </div>
-
+            <section class="header-stats">
+                <ul>
+                    <li class="header-resource stat-health">
+                        <h2 class="attribute-name">Life</h2>
+                        <div class="flex value">
+                            <input type="text" 
+                                class="health-min" 
+                                name="data.health.value" 
+                                value="{{data.health.value}}" 
+                                data-dtype="Number" 
+                                maxlength="4"/>
+                            <span class="value-separator">/</span>
+                            <input readonly
+                                type="text" 
+                                class="health-max" 
+                                name="data.health.max" 
+                                value="{{data.health.max}}" 
+                                data-dtype="Number" 
+                                maxlength="4"/>
+                        </div>
+                        <div class="flex value-footer">
+                            <span>Per level:</span>
+                            <input type="text" 
+                                class="health-per-level" 
+                                name="data.health.per_level" 
+                                value="{{data.health.per_level}}"
+                                data-dtype="Number"
+                                maxlength="3"/>
+                        </div>
+                    </li>
+                    <li class="header-resource stat-level">
+                        <h2 class="attribute-name">Level</h2>
+                        <input type="text" 
+                            class="value level-display" 
+                            name="data.attributes.level" 
+                            value="{{data.attributes.level}}"
+                            data-dtype="Number" 
+                            maxlength="2"/>
+                    </li>
+                </ul>
+            </section>
         </div>
     </header>
 

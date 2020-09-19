@@ -1,4 +1,4 @@
-.equilibrium {
+.Equilibrium {
   .window-content {
     height: 100%;
     padding: 5px;
@@ -6,13 +6,38 @@
   }
 
   .sheet-header {
-    height: 100px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-bottom: 10px;
+
+    .value {
+      input {
+        display: block;
+        height: 22px;
+        padding-top: 2px;
+        font-weight: 700;
+        width: 100%;
+      }
+
+      .value-separator {
+        line-height: 20px;
+      }
+    }
+
+    .value-footer {
+      height: 18px;
+      font-size: 12px;
+      
+      input {
+        display: block;
+        height: 18px;
+        padding-top: 1px;
+        max-width: 50%;
+      }
+    }
 
     .profile-img {
       flex: 0 0 100px;
@@ -22,7 +47,75 @@
 
     .header-fields {
       flex: 1;
-      height: 100px;
+    }
+
+    .header-stats {
+      .flex {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+      }
+       
+      input {
+        border:none;
+        background: none;
+      }
+
+      display: flex;
+      justify-content: flex-start;
+
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        flex: 0 0 270px;
+      }
+      li {
+        padding: 0 5px;
+        border-left: 1px solid rgba(0,0,0,.075);
+        text-align: center;
+
+        &:first-child {
+          border-left: none;
+        }
+      }
+
+      .stat-health {
+        .health-min {
+          text-align: right;
+        }
+        
+        .health-max {
+          text-align: left;
+        }
+      }
+
+      .level-display{
+        font-size: 40px;
+        height: 36px;
+      }
+
+      .attribute-name {
+        font-size: 20px;
+        line-height: 20px;
+        height: 24px;
+        position: relative;
+        margin: 0;
+        white-space: nowrap;
+        border: none;
+
+        &::after {
+          display: block;
+          content: '';
+          height: 0;
+          width: 60%;
+          border-bottom: 1px solid rgba(0,0,0,.075);
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translate(-50%,0);
+      }
+      }
     }
 
     h1.charname {
@@ -45,23 +138,42 @@
     float: left;
     text-align: center;
     input {
-      width: 100px;
+      width: 20%;
       height: 28px;
     }
   }
 
+  .skills-list {
+    padding: 0;
+  }
+
   .skill {
+    padding: 3px;
+    height: 28px;
     input {
-      width: 100px;
-      height: 28px;
+      flex: 0 0 28px;
+      text-align: center;
+      min-width: 0;
+    }
+
+    .skill-focus {
+      flex: 1px;
+      margin: 0;
+      text-align: right;
+      color: #7a7971;
+    }
+
+    .skill-category {
+      border: 2px groove #eeede0;
+      padding: 2px;
     }
   }
 
   /* Sheet Tabs */
   .tabs {
     height: 40px;
-    border-top: 1px solid #AAA;
-    border-bottom: 1px solid #AAA;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
 
     .item {
       line-height: 40px;
@@ -82,7 +194,8 @@
     }
   }
 
-  .editor, .editor-content {
+  .editor,
+  .editor-content {
     height: 100%;
   }
 
@@ -97,7 +210,7 @@
       height: 30px;
       line-height: 24px;
       padding: 3px 0;
-      border-bottom: 1px solid #BBB;
+      border-bottom: 1px solid #bbb;
 
       img {
         flex: 0 0 24px;
@@ -119,7 +232,7 @@
     padding: 5px;
     margin: 5px 0;
     background: rgba(0, 0, 0, 0.05);
-    border: 1px solid #AAA;
+    border: 1px solid #aaa;
     border-radius: 2px;
     text-align: center;
     font-weight: bold;
@@ -145,7 +258,7 @@
       background: transparent;
       border: none;
       border-radius: 0;
-      border-bottom: 1px solid #AAA;
+      border-bottom: 1px solid #aaa;
     }
 
     a.attribute-control {
@@ -161,7 +274,6 @@
   min-width: 560px;
   min-height: 420px;
 }
-
 
 .worldbuilding.sheet.item {
   min-width: 460px;

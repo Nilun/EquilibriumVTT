@@ -7,15 +7,10 @@
 			"biography": "",
 			"health": {
 				"value": 10,
-				"min": -100,
-				"max": 100
+				"per_level": 3
 			},
 			"attributes": {
-				"level": {
-					"value": 1,
-					"min": 1,
-					"max": 20
-				}
+				"level": 1
 			},
 			"focus": {
 				"Brutality": {
