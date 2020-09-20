@@ -93,6 +93,11 @@
 .Equilibrium .sheet-header .header-stats .focus .focus-max {
   text-align: left;
 }
+.Equilibrium .sheet-header .header-stats .focus .focus-plus,
+.Equilibrium .sheet-header .header-stats .focus .focus-minus {
+  font-size: medium;
+  margin: 2px;
+}
 .Equilibrium .sheet-header .header-stats .level-display {
   font-size: 40px;
   height: 36px;

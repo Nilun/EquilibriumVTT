@@ -7,6 +7,8 @@ exports.SimpleActorSheet = void 0;
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -60,9 +62,9 @@ function (_ActorSheet) {
       var data = _get(_getPrototypeOf(SimpleActorSheet.prototype), "getData", this).call(this);
 
       data.actor.data.skillCategory = {
-        "war": {},
-        "magic": {},
-        "other": {}
+        war: {},
+        magic: {},
+        other: {}
       };
 
       for (var _i = 0, _Object$entries = Object.entries(data.actor.data.focus); _i < _Object$entries.length; _i++) {
@@ -109,9 +111,11 @@ function (_ActorSheet) {
       _get(_getPrototypeOf(SimpleActorSheet.prototype), "activateListeners", this).call(this, html); // Everything below here is only needed if the sheet is editable
 
 
-      if (!this.options.editable) return; // Update Inventory Item
+      if (!this.options.editable) return;
+      html.find(".focus-plus").click(this._onClickFocusPlus.bind(this));
+      html.find(".focus-minus").click(this._onClickFocusMinus.bind(this)); // Update Inventory Item
 
-      html.find('.item-edit').click(function (ev) {
+      html.find(".item-edit").click(function (ev) {
         var li = $(ev.currentTarget).parents(".item");
 
         var item = _this.actor.getOwnedItem(li.data("itemId"));
@@ -119,7 +123,7 @@ function (_ActorSheet) {
         item.sheet.render(true);
       }); // Delete Inventory Item
 
-      html.find('.item-delete').click(function (ev) {
+      html.find(".item-delete").click(function (ev) {
         var li = $(ev.currentTarget).parents(".item");
 
         _this.actor.deleteOwnedItem(li.data("itemId"));
@@ -203,6 +207,45 @@ function (_ActorSheet) {
           }
         }
       }, null, this);
+    }
+  }, {
+    key: "_onClickFocusPlus",
+    value: function _onClickFocusPlus(event) {
+      event.preventDefault();
+      var target = event.currentTarget;
+      var focus = this.actor.data.data.focus[target.name];
+      focus.name = target.name;
+
+      this._updateFocusValue(focus, 1);
+    }
+  }, {
+    key: "_onClickFocusMinus",
+    value: function _onClickFocusMinus(event) {
+      event.preventDefault();
+      var target = event.currentTarget;
+      var focus = this.actor.data.data.focus[target.name];
+      focus.name = target.name;
+
+      this._updateFocusValue(focus, -1);
+    }
+  }, {
+    key: "_updateFocusValue",
+    value: function _updateFocusValue(focus, update) {
+      var value = focus.value + update;
+
+      if (value >= focus.max) {
+        value = focus.max;
+      } else if (value < 0) {
+        value = 0;
+      }
+
+      this.actor.update({
+        data: {
+          focus: _defineProperty({}, focus.name, {
+            value: value
+          })
+        }
+      });
     }
     /* -------------------------------------------- */
 
