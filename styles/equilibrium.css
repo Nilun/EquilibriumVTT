@@ -8,6 +8,11 @@
   padding: 5px;
   overflow-y: hidden;
 }
+.Equilibrium .flex {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
 .Equilibrium .sheet-header {
   overflow: hidden;
   display: flex;
@@ -15,6 +20,20 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-bottom: 10px;
+}
+.Equilibrium .sheet-header .top-info {
+  justify-content: space-between;
+  padding-bottom: 2px;
+}
+.Equilibrium .sheet-header .top-info .stat-level {
+  margin: 5px;
+}
+.Equilibrium .sheet-header .top-info .stat-level input {
+  width: 30px;
+}
+.Equilibrium .sheet-header input {
+  border: none;
+  background: none;
 }
 .Equilibrium .sheet-header .value input {
   display: block;
@@ -48,20 +67,11 @@
   display: flex;
   justify-content: flex-start;
 }
-.Equilibrium .sheet-header .header-stats .flex {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-}
-.Equilibrium .sheet-header .header-stats input {
-  border: none;
-  background: none;
-}
 .Equilibrium .sheet-header .header-stats ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  flex: 0 0 270px;
+  padding: 0;
 }
 .Equilibrium .sheet-header .header-stats li {
   padding: 0 5px;
@@ -75,6 +85,12 @@
   text-align: right;
 }
 .Equilibrium .sheet-header .header-stats .stat-health .health-max {
+  text-align: left;
+}
+.Equilibrium .sheet-header .header-stats .focus .focus-min {
+  text-align: right;
+}
+.Equilibrium .sheet-header .header-stats .focus .focus-max {
   text-align: left;
 }
 .Equilibrium .sheet-header .header-stats .level-display {
@@ -103,7 +119,7 @@
 }
 .Equilibrium .sheet-header h1.charname {
   height: 50px;
-  padding: 0px;
+  padding: 2px;
   margin: 5px 0;
   border-bottom: 0;
 }

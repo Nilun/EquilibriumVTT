@@ -4,6 +4,12 @@
     padding: 5px;
     overflow-y: hidden;
   }
+  
+  .flex {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
 
   .sheet-header {
     overflow: hidden;
@@ -12,6 +18,24 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-bottom: 10px;
+
+    .top-info {
+      justify-content: space-between;
+      padding-bottom: 2px;
+
+      .stat-level{
+        margin: 5px;
+        input {
+          width:30px
+        }
+      }
+
+    }
+    
+    input {
+      border:none;
+      background: none;
+    }
 
     .value {
       input {
@@ -50,16 +74,6 @@
     }
 
     .header-stats {
-      .flex {
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-      }
-       
-      input {
-        border:none;
-        background: none;
-      }
 
       display: flex;
       justify-content: flex-start;
@@ -68,7 +82,7 @@
         list-style: none;
         display: flex;
         justify-content: flex-start;
-        flex: 0 0 270px;
+        padding: 0;
       }
       li {
         padding: 0 5px;
@@ -86,6 +100,16 @@
         }
         
         .health-max {
+          text-align: left;
+        }
+      }
+
+      .focus {
+        .focus-min {
+          text-align: right;
+        }
+        
+        .focus-max {
           text-align: left;
         }
       }
@@ -120,7 +144,7 @@
 
     h1.charname {
       height: 50px;
-      padding: 0px;
+      padding: 2px;
       margin: 5px 0;
       border-bottom: 0;
       input {

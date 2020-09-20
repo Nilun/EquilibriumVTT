@@ -4,7 +4,17 @@
     <header class="sheet-header">
         <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
         <div class="header-fields">
-            <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
+            <section class="flex top-info">
+                <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
+                <div class="flex stat-level value">
+                    <span class="value-separator">Level:</span>
+                    <input type="text"class="value level-display" 
+                    name="data.attributes.level" 
+                    value="{{data.attributes.level}}"
+                    data-dtype="Number" 
+                    maxlength="2"/>
+                </div>
+            </section>
             <section class="header-stats">
                 <ul>
                     <li class="header-resource stat-health">
@@ -35,14 +45,100 @@
                                 maxlength="3"/>
                         </div>
                     </li>
-                    <li class="header-resource stat-level">
-                        <h2 class="attribute-name">Level</h2>
-                        <input type="text" 
-                            class="value level-display" 
-                            name="data.attributes.level" 
-                            value="{{data.attributes.level}}"
-                            data-dtype="Number" 
-                            maxlength="2"/>
+                    <li class="header-resource focus focus-vitality">
+                        <h2 class="attribute-name">Vitality</h2>
+                        <div class="flex value">
+                            <input type="text" 
+                                class="focus-min" 
+                                name="data.focus.Vitality.value" 
+                                value="{{data.focus.Vitality.value}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                            <span class="value-separator">/</span>
+                            <input readonly
+                                type="text" 
+                                class="focus-max" 
+                                name="data.focus.Vitality.max" 
+                                value="{{data.focus.Vitality.max}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                        </div>
+                    </li>
+                    <li class="header-resource focus focus-brutality">
+                        <h2 class="attribute-name">Brutality</h2>
+                        <div class="flex value">
+                            <input type="text" 
+                                class="focus-min" 
+                                name="data.focus.Brutality.value" 
+                                value="{{data.focus.Brutality.value}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                            <span class="value-separator">/</span>
+                            <input readonly
+                                type="text" 
+                                class="focus-max" 
+                                name="data.focus.Brutality.max" 
+                                value="{{data.focus.Brutality.max}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                        </div>
+                    </li>
+                    <li class="header-resource focus focus-swiftness">
+                        <h2 class="attribute-name">Swiftness</h2>
+                        <div class="flex value">
+                            <input type="text" 
+                                class="focus-min" 
+                                name="data.focus.Swiftness.value" 
+                                value="{{data.focus.Swiftness.value}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                            <span class="value-separator">/</span>
+                            <input readonly
+                                type="text" 
+                                class="focus-max" 
+                                name="data.focus.Swiftness.max" 
+                                value="{{data.focus.Swiftness.max}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                        </div>
+                    </li>
+                    <li class="header-resource focus focus-spirit">
+                        <h2 class="attribute-name">Spirit</h2>
+                        <div class="flex value">
+                            <input type="text" 
+                                class="focus-min" 
+                                name="data.focus.Spirit.value" 
+                                value="{{data.focus.Spirit.value}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                            <span class="value-separator">/</span>
+                            <input readonly
+                                type="text" 
+                                class="focus-max" 
+                                name="data.focus.Spirit.max" 
+                                value="{{data.focus.Spirit.max}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                        </div>
+                    </li>
+                    <li class="header-resource focus focus-malice">
+                        <h2 class="attribute-name">Malice</h2>
+                        <div class="flex value">
+                            <input type="text" 
+                                class="focus-min" 
+                                name="data.focus.Malice.value" 
+                                value="{{data.focus.Malice.value}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                            <span class="value-separator">/</span>
+                            <input readonly
+                                type="text" 
+                                class="focus-max" 
+                                name="data.focus.Malice.max" 
+                                value="{{data.focus.Malice.max}}" 
+                                data-dtype="Number" 
+                                maxlength="2"/>
+                        </div>
                     </li>
                 </ul>
             </section>
@@ -51,7 +147,6 @@
 
     {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
-        <a class="item" data-tab="ressources">Ressources</a>
         <a class="item" data-tab="skills">Skills</a>
         <a class="item" data-tab="items">Items</a>
         <a class="item" data-tab="attributes">Attributes</a>
@@ -60,54 +155,6 @@
     {{!-- Sheet Body --}}
     <section class="sheet-body">
 
-        {{!-- Biography Tab --}}
-        <div class="tab ressources" data-group="primary" data-tab="ressources">
-            <div class="resource">
-                Brutality
-
-                <input type="text" name="data.focus.Brutality.value" value="{{data.focus.Brutality.value}}"
-                    data-dtype="Number" />
-                <span> / </span>
-                <input readonly type="text" name="data.focus.Brutality.max" value="{{data.focus.Brutality.max}}"
-                    data-dtype="Number" />
-            </div>
-            <div class="resource">
-                Swiftness
-
-                <input type="text" name="data.focus.Swiftness.value" value="{{data.focus.Swiftness.value}}"
-                    data-dtype="Number" />
-                <span> / </span>
-                <input readonly type="text" name="data.focus.Swiftness.max" value="{{data.focus.Swiftness.max}}"
-                    data-dtype="Number" />
-            </div>
-            <div class="resource">
-                Vitality
-                <input type="text" name="data.focus.Vitality.value" value="{{data.focus.Vitality.value}}"
-                    data-dtype="Number" />
-                <span> / </span>
-                <input readonly type="text" name="data.focus.Vitality.max" value="{{data.focus.Vitality.max}}"
-                    data-dtype="Number" />
-            </div>
-            <div class="resource">
-                Spirit
-
-                <input type="text" name="data.focus.Spirit.value" value="{{data.focus.Spirit.value}}"
-                    data-dtype="Number" />
-                <span> / </span>
-                <input readonly type="text" name="data.focus.Spirit.max" value="{{data.focus.Spirit.max}}"
-                    data-dtype="Number" />
-            </div>
-            <div class="resource">
-                Malice
-
-                <input type="text" name="data.focus.Malice.value" value="{{data.focus.Malice.value}}"
-                    data-dtype="Number" />
-                <span> / </span>
-                <input readonly type="text" name="data.focus.Malice.max" value="{{data.focus.Malice.max}}"
-                    data-dtype="Number" />
-            </div>
-
-        </div>
         <div class="tab skills flexrow" data-group="primary" data-tab="skills">
             <div class="skill-column">
                 <div class="skill-category">
