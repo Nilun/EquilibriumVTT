@@ -91,9 +91,10 @@ function (_ActorSheet) {
       }
 
       if (data.actor.data.health.per_level) {
+        var bodybuilding = data.actor.data.skills.Bodybuilding.value;
         var hp_per_level = data.actor.data.health.per_level;
         var level = data.actor.data.attributes.level;
-        var hp = 10 + hp_per_level * level;
+        var hp = 10 + hp_per_level * level + bodybuilding * 5;
         data.actor.data.health.max = hp;
       }
 
