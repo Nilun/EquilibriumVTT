@@ -5,6 +5,7 @@ import { SimpleActorSheet } from "./actor-sheet.js";
 import { PassifItemSheet } from "./passif-sheet.js";
 import { ComponentItemSheet } from "./component-sheet.js";
 import { SpellItemSheet } from "./spell-sheet.js";
+import EquilibriumItem from "./item.js";
 /* -------------------------------------------- */
 /*  Foundry VTT Initialization                  */
 /* -------------------------------------------- */
@@ -22,6 +23,13 @@ Hooks.once("init", async function () {
   };
 
   CONFIG.EQUILIBRIUM = {};
+  CONFIG.EQUILIBRIUM.focus = {
+    "Vitality": "Vitality",
+    "Brutality": "Brutality",
+    "Swiftness": "Swiftness",
+    "Malice": "Malice",
+    "Spirit": "Spirit",
+  };
 
   CONFIG.EQUILIBRIUM.skills = {
     "One_Hand": "One Hand",
@@ -97,6 +105,7 @@ Hooks.once("init", async function () {
 
   // Define custom Entity classes
   CONFIG.Actor.entityClass = SimpleActor;
+  CONFIG.Item.entityClass = EquilibriumItem;
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);

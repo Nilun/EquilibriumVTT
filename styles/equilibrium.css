@@ -13,6 +13,11 @@
   align-items: center;
   justify-content: center;
 }
+.Equilibrium .rollable :hover {
+  color: #000;
+  text-shadow: 0 0 10px red;
+  cursor: pointer;
+}
 .Equilibrium .sheet-header {
   overflow: hidden;
   display: flex;
@@ -141,7 +146,7 @@
   text-align: center;
 }
 .Equilibrium .resource input {
-  width: 20%;
+  width: 50%;
   height: 28px;
 }
 .Equilibrium .skills-list {
@@ -202,7 +207,11 @@
   padding: 3px 0;
   border-bottom: 1px solid #bbb;
 }
-.Equilibrium .item-list .item img {
+.Equilibrium .item-list .item.rollable .item-img:hover {
+  background-image: url("/icons/svg/d20-black.svg") !important;
+}
+.Equilibrium .item-list .item .item-img {
+  background-size: 24px;
   flex: 0 0 24px;
   margin-right: 5px;
 }
@@ -247,11 +256,11 @@
   line-height: 28px;
   border: none;
 }
-.worldbuilding.sheet.actor {
+.sheet.actor {
   min-width: 560px;
   min-height: 420px;
 }
-.worldbuilding.sheet.item {
+.sheet.item {
   min-width: 460px;
   min-height: 400px;
 }

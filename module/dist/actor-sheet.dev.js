@@ -113,7 +113,10 @@ function (_ActorSheet) {
 
       if (!this.options.editable) return;
       html.find(".focus-plus").click(this._onClickFocusPlus.bind(this));
-      html.find(".focus-minus").click(this._onClickFocusMinus.bind(this)); // Update Inventory Item
+      html.find(".focus-minus").click(this._onClickFocusMinus.bind(this));
+      html.find(".item .item-img").click(function (event) {
+        return _this._onItemRoll(event);
+      }); // Update Inventory Item
 
       html.find(".item-edit").click(function (ev) {
         var li = $(ev.currentTarget).parents(".item");
@@ -246,6 +249,19 @@ function (_ActorSheet) {
           })
         }
       });
+    }
+    /**
+     * Handle rolling of an item from the Actor sheet, obtaining the Item instance and dispatching to it's roll method
+     * @private
+     */
+
+  }, {
+    key: "_onItemRoll",
+    value: function _onItemRoll(event) {
+      event.preventDefault();
+      var itemId = event.currentTarget.closest(".item").dataset.itemId;
+      var item = this.actor.getOwnedItem(itemId);
+      return item.roll();
     }
     /* -------------------------------------------- */
 

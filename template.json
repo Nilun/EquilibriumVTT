@@ -276,13 +276,26 @@
 	},	
 	"Item": {
 		"types": [
-			"item","passif","sort","component"
+			"item","passif","sort","component","weapon"
 		],
+		"templates":{
+			"basicItem": {
+				"description": ""
+			},
+			"physicalItem": {
+				"quantity": 1,
+				"weight": 0,
+				"price": 0
+			  }
+		},
 		"item": {
-			"description": "",
-			"quantity": 1,
-			"weight": 0,
+			"templates": ["description", "physicalItem"],
 			"attributes": {}
+		},
+		"weapon" : {
+			"templates": ["description", "physicalItem"],
+			"damage": "",
+			"focus": ""
 		},
 		"passif" :
 		{

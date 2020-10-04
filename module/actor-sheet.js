@@ -71,6 +71,8 @@ export class SimpleActorSheet extends ActorSheet {
     html.find(".focus-plus").click(this._onClickFocusPlus.bind(this));
     html.find(".focus-minus").click(this._onClickFocusMinus.bind(this));
 
+    html.find(".item .item-img").click(event => this._onItemRoll(event));
+
     // Update Inventory Item
     html.find(".item-edit").click((ev) => {
       const li = $(ev.currentTarget).parents(".item");
@@ -170,6 +172,17 @@ export class SimpleActorSheet extends ActorSheet {
         },
       },
     });
+  }
+
+  /**
+   * Handle rolling of an item from the Actor sheet, obtaining the Item instance and dispatching to it's roll method
+   * @private
+   */
+  _onItemRoll(event) {
+    event.preventDefault();
+    const itemId = event.currentTarget.closest(".item").dataset.itemId;
+    const item = this.actor.getOwnedItem(itemId);
+    return item.roll();
   }
 
   /* -------------------------------------------- */
