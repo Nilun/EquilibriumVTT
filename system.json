@@ -2,7 +2,7 @@
   "name": "Equilibrium",
   "title": "Equilibrium Role Play System",
   "description": ".",
-  "version": 0.035,
+  "version": 0.036,
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.6.6",
   "templateVersion": 3,
@@ -18,5 +18,5 @@
   "url": "https://github.com/Nilun/EquilibriumVTT",
   "manifest": "https://raw.githubusercontent.com/Nilun/EquilibriumVTT/master/system.json",
   "license": "LICENSE.txt",
-  "download": "https://github.com/Nilun/EquilibriumVTT/archive/v0.035.zip"
+  "download": "https://github.com/Nilun/EquilibriumVTT/archive/v0.036.zip"
 }

@@ -279,7 +279,7 @@
 			"item","passif","sort","component","weapon"
 		],
 		"templates":{
-			"basicItem": {
+			"description": {
 				"description": ""
 			},
 			"physicalItem": {
