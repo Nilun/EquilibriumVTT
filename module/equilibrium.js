@@ -17,10 +17,7 @@ Hooks.once("init", async function () {
    * Set an initiative formula for the system
    * @type {String}
    */
-  CONFIG.Combat.initiative = {
-    formula: "1d4",
-    decimals: 2
-  };
+  CONFIG.Combat.initiative.formula = "1d4 + @focus.Swiftness.max + @focus.Malice.max";
 
   CONFIG.EQUILIBRIUM = {};
   CONFIG.EQUILIBRIUM.focus = {
