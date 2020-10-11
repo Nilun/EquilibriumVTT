@@ -264,3 +264,6 @@
   min-width: 460px;
   min-height: 400px;
 }
+.chat-card .card-header img {
+  flex: 0 0 36px;
+}
