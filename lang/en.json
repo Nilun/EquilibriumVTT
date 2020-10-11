@@ -1,0 +1,17 @@
+{
+    "EQUILIBRIUM.Skills": "Skills",
+    "EQUILIBRIUM.Items": "Items",
+    "EQUILIBRIUM.Item": "Item",
+    "EQUILIBRIUM.ItemCreate": "Create Item",
+    "EQUILIBRIUM.ItemAdd": "Add",
+    "EQUILIBRIUM.ItemNew": "New {type}",
+    "EQUILIBRIUM.ItemEdit": "Edit Item",
+    "EQUILIBRIUM.ItemDelete": "Edit Delete",
+    "EQUILIBRIUM.Weapons": "Weapons",
+    "EQUILIBRIUM.Passives": "Passives",
+    "EQUILIBRIUM.Passive": "Passive",
+    "EQUILIBRIUM.Spells": "Spells",
+    "EQUILIBRIUM.Spell": "Spell",
+    "EQUILIBRIUM.Technics": "Technics",
+    "EQUILIBRIUM.Technic": "Technic"
+}

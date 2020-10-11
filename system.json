@@ -10,7 +10,6 @@
   "esmodules": ["module/equilibrium.js"],
   "styles": ["styles/equilibrium.css"],
   "packs": [],
-  "languages": [],
   "gridDistance": 1.5,
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
@@ -18,5 +17,12 @@
   "url": "https://github.com/Nilun/EquilibriumVTT",
   "manifest": "https://raw.githubusercontent.com/Nilun/EquilibriumVTT/master/system.json",
   "license": "LICENSE.txt",
-  "download": "https://github.com/Nilun/EquilibriumVTT/archive/v0.036.zip"
+  "download": "https://github.com/Nilun/EquilibriumVTT/archive/v0.036.zip",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+]
 }

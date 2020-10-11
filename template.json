@@ -276,7 +276,7 @@
 	},	
 	"Item": {
 		"types": [
-			"item","passif","sort","component","weapon"
+			"item","passif","spell","component","weapon","technic"
 		],
 		"templates":{
 			"description": {
@@ -295,21 +295,24 @@
 		"weapon" : {
 			"templates": ["description", "physicalItem"],
 			"damage": "",
-			"focus": ""
+			"skill": ""
 		},
 		"passif" :
 		{
-			"name:":"",
+			"templates": ["description"],
 			"supCat":"",
 			"cat":"",
-			"description": "",
 			"niveau":"",
 			"niveau max":"",
 			"tag":""
 		},
-		"sort" :
+		"technic" :
 		{
-			"name":"",
+			"templates": ["description"]
+		},
+		"spell" :
+		{
+			"templates": ["description"],
 			"Brutality": "",
 			"Vitality": "",
 			"Swiftness": "",
@@ -317,8 +320,7 @@
 			"Malice": "",
 			"portée":"",
 			"element":"",
-			"desctiption":"",
-			"component":[]
+			"components":[]
 		},
 		"component":
 		{

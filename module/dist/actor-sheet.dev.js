@@ -98,6 +98,8 @@ function (_ActorSheet) {
         data.actor.data.health.max = hp;
       }
 
+      this._prepareItems(data);
+
       return data;
     }
     /* -------------------------------------------- */
@@ -135,7 +137,8 @@ function (_ActorSheet) {
         li.slideUp(200, function () {
           return _this.render(false);
         });
-      }); // Add or Remove Attribute
+      });
+      html.find('.item-create').click(this._onItemCreate.bind(this)); // Add or Remove Attribute
 
       html.find(".attributes").on("click", ".attribute-control", this._onClickAttributeControl.bind(this));
     }
@@ -157,6 +160,93 @@ function (_ActorSheet) {
     }
     /* -------------------------------------------- */
 
+  }, {
+    key: "_prepareItems",
+    value: function _prepareItems(data) {
+      var inventory, _data$items$reduce, _data$items$reduce2, items, weapons, passives, spells, technics;
+
+      return regeneratorRuntime.async(function _prepareItems$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              inventory = {
+                weapons: {
+                  label: "EQUILIBRIUM.Weapons",
+                  items: [],
+                  dataset: {
+                    type: "weapon"
+                  }
+                },
+                items: {
+                  label: "EQUILIBRIUM.Items",
+                  items: [],
+                  dataset: {
+                    type: "item"
+                  }
+                },
+                spells: {
+                  label: "EQUILIBRIUM.Spells",
+                  items: [],
+                  dataset: {
+                    type: "spell"
+                  }
+                },
+                technics: {
+                  label: "EQUILIBRIUM.Technics",
+                  items: [],
+                  dataset: {
+                    type: "technic"
+                  }
+                },
+                passives: {
+                  label: "EQUILIBRIUM.Passives",
+                  items: [],
+                  dataset: {
+                    type: "passif"
+                  }
+                }
+              };
+              _data$items$reduce = data.items.reduce(function (arr, item) {
+                item.isStack = Number.isNumeric(item.data.quantity) && item.data.quantity !== 1;
+
+                switch (item.type) {
+                  case "weapon":
+                    arr[1].push(item);
+                    break;
+
+                  case "passif":
+                    arr[2].push(item);
+                    break;
+
+                  case "spell":
+                    arr[3].push(item);
+                    break;
+
+                  case "technic":
+                    arr[4].push(item);
+                    break;
+
+                  default:
+                    arr[0].push(item);
+                    break;
+                }
+
+                return arr;
+              }, [[], [], [], [], []]), _data$items$reduce2 = _slicedToArray(_data$items$reduce, 5), items = _data$items$reduce2[0], weapons = _data$items$reduce2[1], passives = _data$items$reduce2[2], spells = _data$items$reduce2[3], technics = _data$items$reduce2[4];
+              inventory.weapons.items = weapons;
+              inventory.items.items = items;
+              inventory.spells.items = spells;
+              inventory.passives.items = passives;
+              inventory.technics.items = technics;
+              data.inventory = Object.values(inventory);
+
+            case 8:
+            case "end":
+              return _context.stop();
+          }
+        }
+      });
+    }
     /**
      * Listen for click events on an attribute control to modify the composition of attributes in the sheet
      * @param {MouseEvent} event    The originating left click event
@@ -167,9 +257,9 @@ function (_ActorSheet) {
     key: "_onClickAttributeControl",
     value: function _onClickAttributeControl(event) {
       var a, action, attrs, form, nk, newKey, li;
-      return regeneratorRuntime.async(function _onClickAttributeControl$(_context) {
+      return regeneratorRuntime.async(function _onClickAttributeControl$(_context2) {
         while (1) {
-          switch (_context.prev = _context.next) {
+          switch (_context2.prev = _context2.next) {
             case 0:
               event.preventDefault();
               a = event.currentTarget;
@@ -178,7 +268,7 @@ function (_ActorSheet) {
               form = this.form; // Add new attribute
 
               if (!(action === "create")) {
-                _context.next = 15;
+                _context2.next = 15;
                 break;
               }
 
@@ -187,27 +277,27 @@ function (_ActorSheet) {
               newKey.innerHTML = "<input type=\"text\" name=\"data.attributes.attr".concat(nk, ".key\" value=\"attr").concat(nk, "\"/>");
               newKey = newKey.children[0];
               form.appendChild(newKey);
-              _context.next = 13;
+              _context2.next = 13;
               return regeneratorRuntime.awrap(this._onSubmit(event));
 
             case 13:
-              _context.next = 20;
+              _context2.next = 20;
               break;
 
             case 15:
               if (!(action === "delete")) {
-                _context.next = 20;
+                _context2.next = 20;
                 break;
               }
 
               li = a.closest(".attribute");
               li.parentElement.removeChild(li);
-              _context.next = 20;
+              _context2.next = 20;
               return regeneratorRuntime.awrap(this._onSubmit(event));
 
             case 20:
             case "end":
-              return _context.stop();
+              return _context2.stop();
           }
         }
       }, null, this);
@@ -231,6 +321,28 @@ function (_ActorSheet) {
       focus.name = target.name;
 
       this._updateFocusValue(focus, -1);
+    }
+    /**
+     * Handle creating a new Owned Item for the actor using initial data defined in the HTML dataset
+     * @param {Event} event   The originating click event
+     * @private
+     */
+
+  }, {
+    key: "_onItemCreate",
+    value: function _onItemCreate(event) {
+      event.preventDefault();
+      var header = event.currentTarget;
+      var type = header.dataset.type;
+      var itemData = {
+        name: game.i18n.format("EQUILIBRIUM.ItemNew", {
+          type: type.capitalize()
+        }),
+        type: type,
+        data: duplicate(header.dataset)
+      };
+      delete itemData.data["type"];
+      return this.actor.createOwnedItem(itemData);
     }
   }, {
     key: "_updateFocusValue",

@@ -57,6 +57,8 @@ export class SimpleActorSheet extends ActorSheet {
       data.actor.data.health.max = hp;
     }
 
+    this._prepareItems(data);
+
     return data;
   }
 
@@ -87,6 +89,8 @@ export class SimpleActorSheet extends ActorSheet {
       this.actor.deleteOwnedItem(li.data("itemId"));
       li.slideUp(200, () => this.render(false));
     });
+    
+    html.find('.item-create').click(this._onItemCreate.bind(this));
 
     // Add or Remove Attribute
     html
@@ -110,6 +114,47 @@ export class SimpleActorSheet extends ActorSheet {
   }
 
   /* -------------------------------------------- */
+
+  async _prepareItems(data) {
+
+    const inventory = {
+      weapons: { label: "EQUILIBRIUM.Weapons", items: [], dataset: {type: "weapon" }},
+      items: { label: "EQUILIBRIUM.Items", items: [], dataset: {type: "item" }},
+      spells: { label: "EQUILIBRIUM.Spells", items: [], dataset: {type: "spell" }},
+      technics: { label: "EQUILIBRIUM.Technics", items: [], dataset: {type: "technic" }},
+      passives: { label: "EQUILIBRIUM.Passives", items: [], dataset: {type: "passif" }},
+    }
+
+    let [items, weapons, passives, spells, technics] = data.items.reduce((arr, item) => {
+      item.isStack = Number.isNumeric(item.data.quantity) && (item.data.quantity !== 1);
+      switch (item.type) {
+        case "weapon":
+          arr[1].push(item);
+          break;
+        case "passif":
+          arr[2].push(item);
+          break;
+        case "spell":
+          arr[3].push(item);
+          break;
+        case "technic":
+          arr[4].push(item);
+          break;
+        default:
+          arr[0].push(item);
+          break;
+      }
+      return arr;
+    }, [[], [], [], [], []]);
+
+    inventory.weapons.items = weapons;
+    inventory.items.items = items;
+    inventory.spells.items = spells;
+    inventory.passives.items = passives;
+    inventory.technics.items = technics;
+
+    data.inventory = Object.values(inventory);
+  }
 
   /**
    * Listen for click events on an attribute control to modify the composition of attributes in the sheet
@@ -155,6 +200,24 @@ export class SimpleActorSheet extends ActorSheet {
     let focus = this.actor.data.data.focus[target.name];
     focus.name = target.name;
     this._updateFocusValue(focus, -1)
+  }
+
+  /**
+   * Handle creating a new Owned Item for the actor using initial data defined in the HTML dataset
+   * @param {Event} event   The originating click event
+   * @private
+   */
+  _onItemCreate(event) {
+    event.preventDefault();
+    const header = event.currentTarget;
+    const type = header.dataset.type;
+    const itemData = {
+      name: game.i18n.format("EQUILIBRIUM.ItemNew", {type: type.capitalize()}),
+      type: type,
+      data: duplicate(header.dataset)
+    };
+    delete itemData.data["type"];
+    return this.actor.createOwnedItem(itemData);
   }
 
   _updateFocusValue(focus, update) {

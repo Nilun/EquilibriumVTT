@@ -11,10 +11,12 @@
             	<label>Weight</label>
                 <input type="text" name="data.weight" value="{{data.weight}}" data-dtype="Number"/>
             </div>
+            {{#if data.damage}}
             <div class="resource">
                 <label>Damage</label>
                 <input type="text" name="data.damage" value="{{data.damage}}" />
             </div>
+            {{/if}}
         </div>
     </header>
 
