@@ -10,7 +10,8 @@
 				"per_level": 3
 			},
 			"attributes": {
-				"level": 1
+				"level": 1,
+				"currency": 0
 			},
 			"focus": {
 				"Brutality": {

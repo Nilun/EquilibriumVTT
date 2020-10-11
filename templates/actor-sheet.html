@@ -6,14 +6,28 @@
         <div class="header-fields">
             <section class="flex top-info">
                 <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
-                <div class="flex stat-level value">
-                    <span class="value-separator">Level:</span>
-                    <input type="text"class="value level-display" 
-                    name="data.attributes.level" 
-                    value="{{data.attributes.level}}"
-                    data-dtype="Number" 
-                    maxlength="2"/>
-                </div>
+                <ul>
+                    <li class="header-resource">
+                        <div class="flex stat-level value">
+                            <span class="value-separator">Level:</span>
+                            <input type="text" class="level-display" 
+                            name="data.attributes.level" 
+                            value="{{data.attributes.level}}"
+                            data-dtype="Number" 
+                            maxlength="2"/>
+                        </div>
+                    </li>
+                    <li class="header-resource">
+                        <div class="flex currency value">
+                            <span class="value-separator">{{localize "EQUILIBRIUM.Currency"}}:</span>
+                            <input type="text" class="currency-display"
+                            name="data.attributes.currency"
+                            value="{{data.attributes.currency}}"
+                            data-dtype="Number"/>
+                            <i class="fas fa-coins"></i>
+                        </div>
+                    </li>
+                </ul>
             </section>
             <section class="header-stats">
                 <ul>
@@ -131,6 +145,7 @@
 
         {{!-- Owned Items Tab --}}
         <div class="tab items" data-group="primary" data-tab="items">
+            
             <ol class="inventory-list">
                 {{#each inventory as |section sid|}}
                     <li class="inventory-header flexrow">
