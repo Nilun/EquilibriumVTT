@@ -68,6 +68,7 @@ function (_Item) {
                 user: game.user._id,
                 type: CONST.CHAT_MESSAGE_TYPES.ROLL,
                 content: html,
+                roll: roll,
                 speaker: {
                   actor: this.actor._id,
                   token: this.actor.token,
