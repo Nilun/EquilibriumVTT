@@ -37,17 +37,19 @@ function (_Item) {
   _createClass(EquilibriumItem, [{
     key: "roll",
     value: function roll() {
-      var token, formula, roll, templateData, template, html, chatData;
+      var token, formula, messageType, roll, templateData, template, html, chatData;
       return regeneratorRuntime.async(function roll$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
               token = this.actor.token;
               formula = this.data.data.damage;
+              messageType = CONST.CHAT_MESSAGE_TYPES.OTHER;
               roll = null;
 
               if (formula) {
                 roll = new Roll(this.data.data.damage).roll();
+                messageType = CONST.CHAT_MESSAGE_TYPES.ROLL;
               }
 
               ;
@@ -59,14 +61,14 @@ function (_Item) {
                 formula: formula
               };
               template = "systems/Equilibrium/templates/chat/item-card.html";
-              _context.next = 9;
+              _context.next = 10;
               return regeneratorRuntime.awrap(renderTemplate(template, templateData));
 
-            case 9:
+            case 10:
               html = _context.sent;
               chatData = {
                 user: game.user._id,
-                type: CONST.CHAT_MESSAGE_TYPES.ROLL,
+                type: messageType,
                 content: html,
                 roll: roll,
                 speaker: {
@@ -77,7 +79,7 @@ function (_Item) {
               };
               return _context.abrupt("return", ChatMessage.create(chatData));
 
-            case 12:
+            case 13:
             case "end":
               return _context.stop();
           }

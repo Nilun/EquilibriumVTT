@@ -3,9 +3,11 @@ export default class EquilibriumItem extends Item {
         const token = this.actor.token;
 
         const formula = this.data.data.damage;
+        let messageType = CONST.CHAT_MESSAGE_TYPES.OTHER;
         let roll = null;
         if (formula) {
             roll = new Roll(this.data.data.damage).roll();
+            messageType = CONST.CHAT_MESSAGE_TYPES.ROLL;
         };
 
         const templateData = {
@@ -16,11 +18,12 @@ export default class EquilibriumItem extends Item {
             formula: formula
         }
 
+
         const template = `systems/Equilibrium/templates/chat/item-card.html`;
         const html = await renderTemplate(template, templateData);
         const chatData = {
             user: game.user._id,
-            type: CONST.CHAT_MESSAGE_TYPES.ROLL,
+            type: messageType,
             content: html,
             roll: roll,
             speaker: {
