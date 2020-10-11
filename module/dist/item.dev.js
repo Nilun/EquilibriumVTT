@@ -58,7 +58,7 @@ function (_Item) {
                 roll: roll,
                 formula: formula
               };
-              template = "systems/equilibrium/templates/chat/item-card.html";
+              template = "systems/Equilibrium/templates/chat/item-card.html";
               _context.next = 9;
               return regeneratorRuntime.awrap(renderTemplate(template, templateData));
 

@@ -16,7 +16,7 @@ export default class EquilibriumItem extends Item {
             formula: formula
         }
 
-        const template = `systems/equilibrium/templates/chat/item-card.html`;
+        const template = `systems/Equilibrium/templates/chat/item-card.html`;
         const html = await renderTemplate(template, templateData);
         const chatData = {
             user: game.user._id,
