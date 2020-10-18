@@ -2,14 +2,36 @@
   "name": "Equilibrium",
   "title": "Equilibrium Role Play System",
   "description": ".",
-  "version": 0.044,
+  "version": 0.045,
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.6.6",
   "templateVersion": 4,
   "author": "Jupotter & Nilun",
   "esmodules": ["module/equilibrium.js"],
   "styles": ["styles/equilibrium.css"],
-  "packs": [],
+  "packs": [
+    {
+      "name": "armors",
+      "label": "Armors",
+      "system": "Equilibrium",
+      "path": "./packs/armors.db",
+      "entity": "Item"
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "system": "Equilibrium",
+      "path": "./packs/weapons.db",
+      "entity": "Item"
+    },
+    {
+      "name": "passives",
+      "label": "Passives",
+      "system": "Equilibrium",
+      "path": "./packs/passives.db",
+      "entity": "Item"
+    }
+  ],
   "gridDistance": 1,
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
@@ -17,7 +39,7 @@
   "url": "https://github.com/Nilun/EquilibriumVTT",
   "manifest": "https://raw.githubusercontent.com/Nilun/EquilibriumVTT/master/system.json",
   "license": "LICENSE.txt",
-  "download": "https://github.com/Nilun/EquilibriumVTT/archive/v0.044.zip",
+  "download": "https://github.com/Nilun/EquilibriumVTT/archive/v0.045.zip",
   "languages": [
     {
       "lang": "en",

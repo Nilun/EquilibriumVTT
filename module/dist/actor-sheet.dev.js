@@ -163,7 +163,7 @@ function (_ActorSheet) {
   }, {
     key: "_prepareItems",
     value: function _prepareItems(data) {
-      var inventory, _data$items$reduce, _data$items$reduce2, items, weapons, passives, spells, technics;
+      var inventory, physical, magical, _data$items$reduce, _data$items$reduce2, items, weapons, armors, passives, spells, technics;
 
       return regeneratorRuntime.async(function _prepareItems$(_context) {
         while (1) {
@@ -175,6 +175,13 @@ function (_ActorSheet) {
                   items: [],
                   dataset: {
                     type: "weapon"
+                  }
+                },
+                armors: {
+                  label: "EQUILIBRIUM.Armors",
+                  items: [],
+                  dataset: {
+                    type: "armor"
                   }
                 },
                 items: {
@@ -206,6 +213,7 @@ function (_ActorSheet) {
                   }
                 }
               };
+              physical = 0, magical = 0;
               _data$items$reduce = data.items.reduce(function (arr, item) {
                 item.isStack = Number.isNumeric(item.data.quantity) && item.data.quantity !== 1;
 
@@ -214,16 +222,22 @@ function (_ActorSheet) {
                     arr[1].push(item);
                     break;
 
-                  case "passif":
+                  case "armor":
+                    physical = item.data.physicalArmor;
+                    magical = item.data.magicalArmor;
                     arr[2].push(item);
                     break;
 
-                  case "spell":
+                  case "passif":
                     arr[3].push(item);
                     break;
 
-                  case "technic":
+                  case "spell":
                     arr[4].push(item);
+                    break;
+
+                  case "technic":
+                    arr[5].push(item);
                     break;
 
                   default:
@@ -232,15 +246,18 @@ function (_ActorSheet) {
                 }
 
                 return arr;
-              }, [[], [], [], [], []]), _data$items$reduce2 = _slicedToArray(_data$items$reduce, 5), items = _data$items$reduce2[0], weapons = _data$items$reduce2[1], passives = _data$items$reduce2[2], spells = _data$items$reduce2[3], technics = _data$items$reduce2[4];
+              }, [[], [], [], [], [], []]), _data$items$reduce2 = _slicedToArray(_data$items$reduce, 6), items = _data$items$reduce2[0], weapons = _data$items$reduce2[1], armors = _data$items$reduce2[2], passives = _data$items$reduce2[3], spells = _data$items$reduce2[4], technics = _data$items$reduce2[5];
               inventory.weapons.items = weapons;
+              inventory.armors.items = armors;
               inventory.items.items = items;
               inventory.spells.items = spells;
               inventory.passives.items = passives;
               inventory.technics.items = technics;
               data.inventory = Object.values(inventory);
+              data.physicalArmor = physical;
+              data.magicalArmor = magical;
 
-            case 8:
+            case 12:
             case "end":
               return _context.stop();
           }

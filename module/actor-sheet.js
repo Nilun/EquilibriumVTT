@@ -119,41 +119,51 @@ export class SimpleActorSheet extends ActorSheet {
 
     const inventory = {
       weapons: { label: "EQUILIBRIUM.Weapons", items: [], dataset: {type: "weapon" }},
+      armors: { label: "EQUILIBRIUM.Armors", items: [], dataset: {type: "armor" }},
       items: { label: "EQUILIBRIUM.Items", items: [], dataset: {type: "item" }},
       spells: { label: "EQUILIBRIUM.Spells", items: [], dataset: {type: "spell" }},
       technics: { label: "EQUILIBRIUM.Technics", items: [], dataset: {type: "technic" }},
       passives: { label: "EQUILIBRIUM.Passives", items: [], dataset: {type: "passif" }},
     }
 
-    let [items, weapons, passives, spells, technics] = data.items.reduce((arr, item) => {
+    let [physical, magical] = [0, 0];
+    let [items, weapons, armors, passives, spells, technics] = data.items.reduce((arr, item) => {
       item.isStack = Number.isNumeric(item.data.quantity) && (item.data.quantity !== 1);
       switch (item.type) {
         case "weapon":
           arr[1].push(item);
           break;
-        case "passif":
+        case "armor":
+          physical = item.data.physicalArmor;
+          magical = item.data.magicalArmor;
           arr[2].push(item);
           break;
-        case "spell":
+        case "passif":
           arr[3].push(item);
           break;
-        case "technic":
+        case "spell":
           arr[4].push(item);
+          break;
+        case "technic":
+          arr[5].push(item);
           break;
         default:
           arr[0].push(item);
           break;
       }
       return arr;
-    }, [[], [], [], [], []]);
+    }, [[], [], [], [], [], []]);
 
     inventory.weapons.items = weapons;
+    inventory.armors.items = armors;
     inventory.items.items = items;
     inventory.spells.items = spells;
     inventory.passives.items = passives;
     inventory.technics.items = technics;
 
     data.inventory = Object.values(inventory);
+    data.physicalArmor = physical;
+    data.magicalArmor = magical;
   }
 
   /**

@@ -22,6 +22,10 @@
   text-shadow: 0 0 10px red;
   cursor: pointer;
 }
+.Equilibrium ul.vertical,
+.Equilibrium ol.vertical {
+  display: unset !important;
+}
 .Equilibrium .sheet-header {
   overflow: hidden;
   display: flex;
@@ -30,13 +34,16 @@
   justify-content: flex-start;
   margin-bottom: 10px;
 }
+.Equilibrium .sheet-header .header-image {
+  width: 110px;
+  flex: none;
+}
 .Equilibrium .sheet-header .top-info {
   justify-content: space-between;
   padding-bottom: 2px;
 }
 .Equilibrium .sheet-header .top-info ul,
 .Equilibrium .sheet-header .top-info ol {
-  display: unset;
   margin: 0;
 }
 .Equilibrium .sheet-header .top-info .value {

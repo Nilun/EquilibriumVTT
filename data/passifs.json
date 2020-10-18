@@ -1,0 +1,2150 @@
+[
+ {
+   "name": "Life",
+   "description": "Gain 1 HP per Level Niveau Max : 2"
+ },
+ {
+   "name": "Armor bonus",
+   "description": "Suffer 2 less physical damages Niveau Max : 1"
+ },
+ {
+   "name": "Damage Bonus",
+   "description": "Your weapon deal 2 more Damage Niveau Max : 1"
+ },
+ {
+   "name": "Extra focus",
+   "description": " Start each battle with 2 More focus of your choice;-(not the same)  Niveau Max : 2"
+ },
+ {
+   "name": "Shielded Focus",
+   "description": "If you focus at the end of your turn reduce next damage by 2 Niveau Max : 1"
+ },
+ {
+   "name": "Inner focus",
+   "description": "You can’t Focus but each turn you can convert 1 of your stored focus into an other Niveau Max : 1"
+ },
+ {
+   "name": "Fist Play",
+   "description": " Your Fist deal 1D4 Damage (per level of this passive) - 1.;Choose one per level of this passive : You can spend Swiftness for your attack .(Can’t be combined);You can spend Brutality for your attack.(Can’t be combined);You can spend Malice for your attack.(Can’t be combined)  Niveau Max : 3"
+ },
+ {
+   "name": "Fist Mastery",
+   "description": "At the begining of your Turn you can Pay 1 Spirit to get this bonus : Depending the Focus you spend for your attack it have the following bonus :;Brutality : Your attack is 1 Focus harder to block;Swiftness : Your Attack can only be evaded with acrobatics;Malice : Your Attack reduce his Vitality Regeneration by 1 (Non stackable);(Technique doesn’t count)  Niveau Max : 1"
+ },
+ {
+   "name": "Fist Balance",
+   "description": "Gain 1 Damage for each different focus spend on your attack (Include Technique) Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Fist Fury",
+   "description": " After 3 Successful strike, all strike deal a free extra attack dealing half damage and having half difficulty to be defended;(Require 3 point in fist/feet skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Ambidextrie mastery",
+   "description": "Deal 1 More damage with your left hand Niveau Max : 4"
+ },
+ {
+   "name": "Ambidextrie opening",
+   "description": " I your first attack of your turn is a Left hand attack , reduce the armor of the target by 3  Niveau Max : 1"
+ },
+ {
+   "name": "Ambidextrie reflex",
+   "description": "Your opportunity attack deal both of your weapons damage Niveau Max : 1"
+ },
+ {
+   "name": "Ambidextrie dance (Elite)",
+   "description": " After 3 attacks gain 1 energy and immunity to opportunity attacks ;(Require 3 point in ambidextrie)  Niveau Max : 1"
+ },
+ {
+   "name": "Feet Play",
+   "description": "Your feet attack deal 1d8 damage (+ 2 Per level of this passive) (Use Brutality focus) Niveau Max : 4"
+ },
+ {
+   "name": "Feet Mastery",
+   "description": "Your opportunity attack are one focus harder to block Niveau Max : 1"
+ },
+ {
+   "name": "Feet Balance",
+   "description": "After a mouvement or an acrobatic deal 2 More damage Niveau Max : 1"
+ },
+ {
+   "name": "Feet Stability (Elite)",
+   "description": " You are immune to be pushed back.;You can push Unarmored or light armored target by 1M per focus spend ;(Require 3 point in fist/feet skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Free hand",
+   "description": "While having free hand you deal 1 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Free punch",
+   "description": "While you attack you can spend up to 5 Focus for dealing as much damage Niveau Max : 1"
+ },
+ {
+   "name": "Free Kill",
+   "description": "While having free hand after a killing blow get all focused used for the attack Niveau Max : 1"
+ },
+ {
+   "name": "Flurry (Elite)",
+   "description": " Every 3 attack (succeed or not) , the third deal two time all the damage  Niveau Max : 1"
+ },
+ {
+   "name": "Sword Play",
+   "description": "Sword Deal 1 Bleeding when they hit Niveau Max : 4"
+ },
+ {
+   "name": "Sword mastery",
+   "description": "Sword attacks needs one more focus to parry Niveau Max : 1"
+ },
+ {
+   "name": "Sword swiftness",
+   "description": "When you successfully hit a target gain 1 focus of your choice (1 per turn) Niveau Max : 1"
+ },
+ {
+   "name": "Living sword (Elite)",
+   "description": " After a successful kill Gain 2 Energy;(Require 3 point in sword skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Axe Play",
+   "description": "While attacking with an Axe on an unarmored target deal 1 More Damage Niveau Max : 4"
+ },
+ {
+   "name": "Axe Mastery",
+   "description": "Your blocked axe attacked deal at least their Flat damage (no damage roll) Niveau Max : 1"
+ },
+ {
+   "name": "Axe Brutality",
+   "description": "Ignore as many armor as you have spend Brutality Focus for your attack Niveau Max : 1"
+ },
+ {
+   "name": "Axe wrath (Elite)",
+   "description": " Each time you get damage Gain 1 Energy and 1 Brutality Focus (Max 3 Energy and Focus) (Minimum 3 Damages);(Require 3 point in axe skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Mace Play",
+   "description": "While attacking with an Axe on an Heavy armor target deal 1 Piercing Damage Niveau Max : 4"
+ },
+ {
+   "name": "Mace Mastery",
+   "description": " If a target have no Vitality Focus and you spend Brutality focus , it lose 1 of his top most Focus  Niveau Max : 1"
+ },
+ {
+   "name": "Mace Brutality",
+   "description": "When you use a technique create an Other Focus than the one you used (Max 1 per Turn) Niveau Max : 1"
+ },
+ {
+   "name": "Mace Guardian (Elite)",
+   "description": " After a success full attack you can convert Any other focus into Vitality Focus;(Require 3 point in mace skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Bow play",
+   "description": "1M of range bonus Niveau Max : 4"
+ },
+ {
+   "name": "Bow Mastery",
+   "description": "Your special arrows deal 3 more damage Niveau Max : 1"
+ },
+ {
+   "name": "Bow Brutality",
+   "description": "When using Special arrows (see Ammunition) Gain 1 Brutality Niveau Max : 1"
+ },
+ {
+   "name": "Bow eyes (Elite)",
+   "description": " You can spend any other focus to increase your damage by 2 with a max equivalent of the Brutality Focus spent for your attack;(Require 3 point in bow skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Heavy Sword Dance",
+   "description": "While having an Ally at close range Deal 2 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Heavy sword Mastery",
+   "description": "After a successful Parry your next Attack against this foe have one more Focus Niveau Max : 1"
+ },
+ {
+   "name": "Heavy sword Brutality",
+   "description": "While parrying if you succeed you can spend any amount of brutality and deal that much damage Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Heavy Sword End",
+   "description": " If you deal a killing blow half Fill all your Focus (round down);(Require 3 point in sword skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Heavy Axe Rock",
+   "description": "While having two foes at close range Deal 2 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Heavy Axe Mastery",
+   "description": "After an Intimidation Gain 1 Brutality and 1 Vitality Niveau Max : 1"
+ },
+ {
+   "name": "Heavy Axe Brutality",
+   "description": "Your attack are one Focus harder to parry (If you spend at least 2 Focus) Niveau Max : 1"
+ },
+ {
+   "name": "Heavy Axe Fatality (Elite)",
+   "description": " If you deal a killing blow copy this attack on the Closest Foe;(Require 3 point in axe skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Heavy Mace drum",
+   "description": "While having a foe and an ally at close range Deal 2 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Heavy Mace Mastery",
+   "description": "After a successful hit you or your closest ally gain 1 Vitality Focus (1 per Turn) Niveau Max : 1"
+ },
+ {
+   "name": "Heavy Mace Brutality",
+   "description": " If one of your Attack is not Blocked , the Target lose 2 Armor for 2 Turn  Niveau Max : 1"
+ },
+ {
+   "name": "Heavy Mace Dread (Elite)",
+   "description": " If your attack is not blocked and have at least 3 Focus the target lose 2 Energy;(Require 3 point in Mace skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Technique learning",
+   "description": "You can learn 2 more techniques Niveau Max : 4"
+ },
+ {
+   "name": "Technique power",
+   "description": "After a technique your next attack deal 2 more damage Niveau Max : 1"
+ },
+ {
+   "name": "Technique Mastery",
+   "description": "After a technique Gain 1 Focus used in your turn (1 per turn) Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Deadly Techniques",
+   "description": " Your technic deal 1 damage per successive technique you use max (4);(Require 3 point in techniques)  Niveau Max : 1"
+ },
+ {
+   "name": "Duelist",
+   "description": "As long as you have one free hand you reduce the damage by the number of focus used by your opponent ( max : 2) Niveau Max : 3"
+ },
+ {
+   "name": "Duel",
+   "description": " As long as you are in duel you start each turn with 1 focus of your choice (Duel is only you versus only one opponent without any interruption ,if a duel is broken it need 2 turn without interference to restart it)  Niveau Max : 1"
+ },
+ {
+   "name": "Duel cheat",
+   "description": "If a duel should be brokken ignore it one time (2 turn of cool down) (need a free hand) Niveau Max : 1"
+ },
+ {
+   "name": "Duel Longevity",
+   "description": "As long as you are in duel damage against you are unlucky (Roll the damage two times and keep the smaller) Niveau Max : 1"
+ },
+ {
+   "name": "Botte fatal (Elite)",
+   "description": "If you break your self deal your max damage and double those damage (need a free hand & 3 point in duel) Niveau Max : 1"
+ },
+ {
+   "name": "Ambidextrie parry stance",
+   "description": "Reduce damage by 1 while having a left hand weapon Niveau Max : 4"
+ },
+ {
+   "name": "Ambidextrie Parry",
+   "description": "After a block deal 2 more damage with your main weapon Niveau Max : 1"
+ },
+ {
+   "name": "Ambidextrie dagger shield",
+   "description": "While blocking with a left hand weapon you have 1 free focus as long as you spend at least one focus for your parry Niveau Max : 1"
+ },
+ {
+   "name": "Counter (Elite)",
+   "description": "The first attack you block allow you to do a counter acting as an opportunity attack ( Require 3 point in Ambidextrie) Niveau Max : 1"
+ },
+ {
+   "name": "Shielding",
+   "description": "While having a shield reduce damage from your back of 1 if unequipped else reduce close range damage by one Niveau Max : 4"
+ },
+ {
+   "name": "Shield security",
+   "description": "You can use your parry to block physical projectile with a malus of 2 Niveau Max : 1"
+ },
+ {
+   "name": "Shield Mastery",
+   "description": "If you spend 3 or more Focus in a parry this parry have one more Focus Niveau Max : 1"
+ },
+ {
+   "name": "Shield Vitality",
+   "description": "After a successful parry Gain 1HP if you are full life gain 1 Focus of your choice except Vitality Niveau Max : 1"
+ },
+ {
+   "name": "Shield Sanctuary (Elite)",
+   "description": " If you spend 3 or more Focus in a parry reduce all damage received for 1 turn by the amount of focus used;(Require 3 point in Shield)  Niveau Max : 1"
+ },
+ {
+   "name": "Targe",
+   "description": "While having a Targe your next attack after a successful parry have 1 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Targe security",
+   "description": "When you have less than 50% of your HP gain 1 additional Vitality Focus each turn Niveau Max : 1"
+ },
+ {
+   "name": "Targe Mastery",
+   "description": "You can sacrifice 2 Swiftness Focus to Parry an Attack with a Focus of 1 or Less Niveau Max : 1"
+ },
+ {
+   "name": "Targe Vitality",
+   "description": "After a successful parry your next Resistance or Acrobatics have +1 focus Niveau Max : 1"
+ },
+ {
+   "name": "Targe Trust (Elite)",
+   "description": " On a successful parry you can spend up to 3 Swiftness to jump Up to 3M behind you (1m per Focus);(Require 3 point in Acrobatics)  Niveau Max : 1"
+ },
+ {
+   "name": "Acrobats",
+   "description": "While Failing an acrobatics you take 1 less Fall or Range damage Niveau Max : 4"
+ },
+ {
+   "name": "Acrobatic Fun",
+   "description": "You can use your acrobatics to dodge spell by spending 2 spirit focus Niveau Max : 1"
+ },
+ {
+   "name": "Acrobatic Mastery",
+   "description": "Your default acrobatic is not 0 but 1 Niveau Max : 1"
+ },
+ {
+   "name": "Acrobatic Vitality",
+   "description": "One time a fight you can spend 1 energy and all your Vitality Focus to survive at 1HP any blow Niveau Max : 1"
+ },
+ {
+   "name": "Acrobatic Faith (Elite)",
+   "description": " On a successful Acrobatic , you can choose a place around the attacker and place you there (this move doesn’t trigger any opportunity);(Require 3 point in Acrobatic)  Niveau Max : 1"
+ },
+ {
+   "name": "Resistance",
+   "description": "Reduce spell damage by 1 Niveau Max : 4"
+ },
+ {
+   "name": "Resilient will",
+   "description": "You can use your resistance to block close combat attack by spending half of the cost of the Vitality as Spirit Focus Niveau Max : 1"
+ },
+ {
+   "name": "Resistance Mastery",
+   "description": "After a success full Resistance Gain 1 focus used by the attacker Niveau Max : 1"
+ },
+ {
+   "name": "Resistance Vitality",
+   "description": "While suffering magic damage you can sacrifice ANY Vitality Focus or Spirit Focus to reduce by one point for each Focus sacrified the damage Niveau Max : 1"
+ },
+ {
+   "name": "Resistance apotheosis (Elite)",
+   "description": " After a successful resistance you can pay the cost of the spell or the attack to reflect it (Once a turn);(Require 3 point in Resistance)  Niveau Max : 1"
+ },
+ {
+   "name": "Technique sharing",
+   "description": "You can teach 1 techniques to an ally this technique does not count in his memory (you have to know the technique) Niveau Max : 1"
+ },
+ {
+   "name": "Technique understanding",
+   "description": " You can modify up to half of your techniques to change the type of the focus cost (can only be changed in Rest Scene);(the modified technique can be shared, if you forget it your ally forget it too)  Niveau Max : 1"
+ },
+ {
+   "name": "Technique move",
+   "description": " During a technique you take half less damage from attack , counter attack or spell  Niveau Max : 1"
+ },
+ {
+   "name": "Technique jolly coop (Elite)",
+   "description": " Ally close to you can pay for your technique (any amount) and you can pay for your close ally techniques (any amount);(Require 3 point in techniques)  Niveau Max : 1"
+ },
+ {
+   "name": "Wild Instinct",
+   "description": " While you wear some pelt as armor reduce damage received by 0,5 physical and 1 magical  Niveau Max : 4"
+ },
+ {
+   "name": "Wild life",
+   "description": " Gain 10Hp , As long as you wear only pelt every 2 turn heal 1hp  Niveau Max : 1"
+ },
+ {
+   "name": "Animal strategy",
+   "description": "For each ally around you deal 1 more damage (max : 4) and they deal 1 more damage (~5M) Niveau Max : 1"
+ },
+ {
+   "name": "Wild heart",
+   "description": "Negative Status last 1 less turn Niveau Max : 1"
+ },
+ {
+   "name": "Warcry (Elite)",
+   "description": " If you wear a pelt you can use this Capacity with a cooldown of 3 :;Feline : All ally gain 2 focus of their choice;Ursid : All foes lose 1 focus of their choice;Canid : All ally have for this turn one more energy for 2 turn;Other : All ally gain 3hp(need 3 point in Wild)  Niveau Max : 1"
+ },
+ {
+   "name": "Dirty Fight",
+   "description": "you can use your Malice instead of your normal Focus cost for an attack Niveau Max : 1"
+ },
+ {
+   "name": "Shield Friend",
+   "description": " You can Parry for other , you can share the cost of the Parry (need to be Close)  Niveau Max : 1"
+ },
+ {
+   "name": "Heavy will",
+   "description": " You can Resist for other , you can share the cost of the Resist (need to be Close)  Niveau Max : 1"
+ },
+ {
+   "name": "Rage",
+   "description": "For 3 Turn Convert 1 Vitality Focus & 1 Other into Brutality Focus Niveau Max : 1"
+ },
+ {
+   "name": "Call Of ancestor",
+   "description": "After a spell your next physical attack Gain 1 Free Focus and 2 Magical damage Niveau Max : 1"
+ },
+ {
+   "name": "Primitive warrior",
+   "description": " Your attack deal 2 More damage and have 1 more Focus if you spend focus on it, but your Technique cost 2 More focus  Niveau Max : 1"
+ },
+ {
+   "name": "Recklessness",
+   "description": "Each time you are damaged your next attack deal half of this damage but your armor can’t reduce damage under half of the total damage Niveau Max : 1"
+ },
+ {
+   "name": "Many Spell",
+   "description": "Gain 3 More memory Niveau Max : 4"
+ },
+ {
+   "name": "Resist bonus",
+   "description": "Suffer 2 less Magic damages Niveau Max : 1"
+ },
+ {
+   "name": "Node Focus",
+   "description": "When Focusing Gain 1 bonus focus depending on the current Node Niveau Max : 1"
+ },
+ {
+   "name": "Meta Focus",
+   "description": "When Focusing your next spell in the turn have one of his metamagic Free Niveau Max : 1"
+ },
+ {
+   "name": "Fire student",
+   "description": "Fire spell Deal bonus damage equal to the level of the spell ( Max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Burn smell",
+   "description": "Burning foes have 2 less armor and 2 less Magic Armor Niveau Max : 1"
+ },
+ {
+   "name": "Fire Mastery",
+   "description": "After a successful spell if it deal more than 6 damage add 1 Burn for 3 turn Niveau Max : 1"
+ },
+ {
+   "name": "Burn resist",
+   "description": "Reduce Burning damage by 1 and by 1 Turn Niveau Max : 1"
+ },
+ {
+   "name": "Fire apocalypse (Elite)",
+   "description": " When dealing a killing blow , all target at 2M of radius take as many burn as you deal damage over 3Turn;(Require 3 Fire class skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Ice formation",
+   "description": "Chill or Feet frozen target take 2 Damage while moving or 1 Damage while attacking Niveau Max : 1"
+ },
+ {
+   "name": "Ice resist",
+   "description": " You can’t be Feet Frozen , and chill last 1 Less turn  Niveau Max : 1"
+ },
+ {
+   "name": "Ice Eternity (Elite)",
+   "description": " If a target is Chill and Feet Frozen , the next chill you apply become a Bone Chill that reduce Maximum Energy by 1 ;(Require 3 Ice skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Earth student",
+   "description": "Earth spell Deal 1 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Earth punch",
+   "description": "After a successful spell Deal 4 more damage Niveau Max : 1"
+ },
+ {
+   "name": "Earth mastery",
+   "description": "While not moving Gain 1 Spirit Focus and reduce all damage by one Niveau Max : 1"
+ },
+ {
+   "name": "Earth Resist",
+   "description": "Reduce poison damage and bleeding by half Niveau Max : 1"
+ },
+ {
+   "name": "Earth uppercut (Elite)",
+   "description": " You can spend any Brutality focus to deal 1 more damage for each focus spend while landing a successful hit;(Require 3 Earth class skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Wind student",
+   "description": "Increase your Initiative by 2 Niveau Max : 4"
+ },
+ {
+   "name": "Wind push",
+   "description": "Increase push damage by 1 per M Niveau Max : 1"
+ },
+ {
+   "name": "Wind mastery",
+   "description": "After moving your next spell deal 2 Damage per Spirit focus used in the spell Niveau Max : 1"
+ },
+ {
+   "name": "Wind resist",
+   "description": "Reduce received push damage and fall damage by 1 Niveau Max : 1"
+ },
+ {
+   "name": "Wind crack (Elite)",
+   "description": " After casting a spell gain as many Initiative than Focus used , you can pay 15 Initiative to play another turn;(Require 3 Wind class skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Light student",
+   "description": "Unholy being take 2 More damage from your spell and 1 for the others Niveau Max : 4"
+ },
+ {
+   "name": "Light unraveling",
+   "description": " When dealing more than 8 Damage , the target lose a positive Status  Niveau Max : 1"
+ },
+ {
+   "name": "Light Mastery",
+   "description": "While in battle for each foe around you Gain 0.5HP and 1 For unholy one Niveau Max : 1"
+ },
+ {
+   "name": "Light prism",
+   "description": " After dealing a killing blow on an Unholy being gain 2 Focus of your choice ,one for other  Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Light Purity",
+   "description": " While full life you share your Positive Status to ally around you;(require 3 Light skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Order Presence",
+   "description": "As long as there is the same amount of ally as enemy around you you deal 1 more damage and take 1 Less damage ( can’t exceed your level in Occult Magic) Niveau Max : 4"
+ },
+ {
+   "name": "Order Punch",
+   "description": "When healing deal half of the HP healed as damage to a close target ( < 3M) Niveau Max : 1"
+ },
+ {
+   "name": "Order Closed",
+   "description": "Opponent can’t heal around you (<2M) Niveau Max : 1"
+ },
+ {
+   "name": "Order Forced",
+   "description": " Each time you block an attack , an opponent close to you lose 1 HP per vitality spend and 2 Per Luck spend  Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Heavenly Vitality",
+   "description": "When Paying Vitality Focus for a Spell Gain 1 Vitality that can’t be used for spell Niveau Max : 1"
+ },
+ {
+   "name": "Chaos student ?",
+   "description": " Your chaos spell deal 1D2 bonus , if it don’t deal damage deal half of this damage  Niveau Max : 4"
+ },
+ {
+   "name": "Chaos fun",
+   "description": " While casting a spell using 3 or more Focus you can cancel the spell but keep the result of the Dice or Coin , you can use them for another spell , if that spell don’t use all the value , take damage equal to the sum of them ( the cancelled spell don’t consum Focus but still consume energy) .  Niveau Max : 1"
+ },
+ {
+   "name": "Chaos nearly mastery",
+   "description": "You can spend 1 Spirit to set 1 of your Dice or Coin to 1 ( 1 for a coin is tail ) Niveau Max : 1"
+ },
+ {
+   "name": "Chaos touch",
+   "description": "At the beginning of each turn gain 1 Reroll Niveau Max : 1"
+ },
+ {
+   "name": "Chaos Madness (Elite)",
+   "description": " After you spend 3 Focus (any) , Throw 3 Coin or dice replace any dice or coin with it;(require 3 Chaos skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Shadow student",
+   "description": "You can place 1 Shadow at 10M ( Cost 1 Energy & 1 Malice Focus) Niveau Max : 4"
+ },
+ {
+   "name": "Shadow sadism",
+   "description": "Whenever you add a Status or refresh one deal 2 Damage to his holder Niveau Max : 1"
+ },
+ {
+   "name": "Shadow Mastery",
+   "description": "For each 2 shadow you have deal 2 Piercing damage with your throwing weapon Niveau Max : 1"
+ },
+ {
+   "name": "Shadow vampire",
+   "description": "Whenever someone die or is K-O while  having Status heal 1 HP for each Status Niveau Max : 1"
+ },
+ {
+   "name": "Shadow corruption (Elite)",
+   "description": " When dealing more than 8 Damage in a turn (Damage over time or Direct damage) The target suffer 1 Bleeding or 1 Poison Lasting 3 Turn or convert a Negative Status in Negative;(require 3 Shadow skill)  Niveau Max : 1"
+ },
+ {
+   "name": "War student",
+   "description": "After a spell your next action gain 1 Damage Niveau Max : 4"
+ },
+ {
+   "name": "War mind",
+   "description": "For each Status on you Deal 1 more Damage Niveau Max : 1"
+ },
+ {
+   "name": "War mastery",
+   "description": " Lose 1 Positive Status reduce the cost of your next attack or spell by one , lose 1 Negative Status increase it instead  Niveau Max : 1"
+ },
+ {
+   "name": "War science",
+   "description": "When you use a technique deal 3 more damage Niveau Max : 1"
+ },
+ {
+   "name": "War herald (Elite)",
+   "description": " When you gain a positive Status share it for half of his duration to an ally;(Require 3 point in war)  Niveau Max : 1"
+ },
+ {
+   "name": "Arcana student",
+   "description": "Arcane spell ignore 1 Magic armor Niveau Max : 4"
+ },
+ {
+   "name": "Arcana teaching",
+   "description": "After a spell Gain 2 other Focus (not Brutality) Niveau Max : 1"
+ },
+ {
+   "name": "Arcana Mastery",
+   "description": " Whenever an ally in a radius of 5M is hit by a spell , this ally gain 1 Focus of his choice  Niveau Max : 1"
+ },
+ {
+   "name": "Arcana Dynamo",
+   "description": "At the beginning of a battle Gain 1 Focus of each Niveau Max : 1"
+ },
+ {
+   "name": "Arcana Optima (Elite)",
+   "description": " All your spell cost 1 Focus less;(Require 3 Arcana class skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Duality learning",
+   "description": "Every even turn your first spell does not consume energy up to level 0(+1) Niveau Max : 4"
+ },
+ {
+   "name": "Duality Inspiration",
+   "description": "You can choose your spell to be on Even or Odd but you have to pay it’s level as extra focus cost (Any) Niveau Max : 1"
+ },
+ {
+   "name": "Duality Self",
+   "description": "At any moment you can change the form of your spell to be on Self ( Replacing it’s first form) Niveau Max : 1"
+ },
+ {
+   "name": "Duality warrior",
+   "description": "you can convert your magical damage to physical as will Niveau Max : 1"
+ },
+ {
+   "name": "Duality Eclipse (Elite)",
+   "description": " When casting a Duality spell you can force the target to protect himself , if he can’t he lose all his vitality focus (1 turn Cooldown)(Require 3 point in Duality class or War)  Niveau Max : 1"
+ },
+ {
+   "name": "Knowledge potency",
+   "description": "As your spell containing a metamagic effect deal 1 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Knowledge parasite",
+   "description": "If you are under the effect of “Telepath” you have a bonus of 1 Focus against the two attacks of your choice per turn Niveau Max : 1"
+ },
+ {
+   "name": "Knowledge oblivion",
+   "description": "Target under “Oblivion” lose 1 Focus each turn Niveau Max : 1"
+ },
+ {
+   "name": "Telekinetic Weapon",
+   "description": "While under Telekinesis you can attack with your weapon with a reach equal to the range of the spell Niveau Max : 1"
+ },
+ {
+   "name": "(elite)Telekinesis Master",
+   "description": " You can cast Telekinesis on a target (max 50kg per spell level) to throw the target in the air dealing damage equal to half the normal height of the spell as Fall damage ( 1d4 per M );(Require 3 point in Knowledge , Telekinetic or Aracana)  Niveau Max : 1"
+ },
+ {
+   "name": "Fire friendly Mastery",
+   "description": "Deal half less Damage to ally with Fire spell Niveau Max : 1"
+ },
+ {
+   "name": "Burn friendly resist",
+   "description": "Reduce Burning damage on your ally by half Niveau Max : 1"
+ },
+ {
+   "name": "Fire phoenix (Elite)",
+   "description": " If you would die resurrect next turn with 25% of your max HP (1 Time per fight);(Require 3 Fire class skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Ice Smoothing",
+   "description": "Ice spell last 1 more turn Niveau Max : 4"
+ },
+ {
+   "name": "Ice protection",
+   "description": "while an ally is under have one of your Ice Status reduce damage received by 2 Niveau Max : 1"
+ },
+ {
+   "name": "Ice purity Mastery",
+   "description": "If you would heal an ally who can’t be healed remove one of his Negative Status Niveau Max : 1"
+ },
+ {
+   "name": "Ice friendly resist",
+   "description": " Your ally do not suffer of your Feet Frozen , and chill  Niveau Max : 1"
+ },
+ {
+   "name": "Ice Stability (Elite)",
+   "description": " As long as an ally have your Chill his focus can’t be reduce by spell , as long as he have your Feet Frozen his move speed can’t be reduce;(Require 3 Ice skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Earth Smoothing",
+   "description": "After a spell Reduce physical damage by 1 Niveau Max : 4"
+ },
+ {
+   "name": "Earth stability",
+   "description": "Whenever an ally have Earth Positive Status He can’t be pushed Niveau Max : 1"
+ },
+ {
+   "name": "Earth friendly mastery",
+   "description": "Whenever an ally have Earth Positive Status and is not moving Gain 1 Spirit Focus and reduce all damage by one Niveau Max : 1"
+ },
+ {
+   "name": "Earth friendly Resist",
+   "description": "Whenever an ally have Earth Positive Status he reduce poison damage and bleeding by half Niveau Max : 1"
+ },
+ {
+   "name": "Earth Armor (Elite)",
+   "description": " Whenever you give a Status to an ally you can Give him up to 3 of your Vitality Focus;(Require 3 Earth class skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Wind Smoothing",
+   "description": "Whenever you give a Status to an ally you can Give him 1 of Initiative Niveau Max : 4"
+ },
+ {
+   "name": "Wind friendly push",
+   "description": "Whenever you push an ally you can on with direction and do not do push damage Niveau Max : 1"
+ },
+ {
+   "name": "Wind friendly mastery",
+   "description": "Whenever you give a Status or push an ally his next attack deal 1 Damage per Focus used in the spell Niveau Max : 1"
+ },
+ {
+   "name": "Wind friendly resist",
+   "description": "While an ally have one of your wind Status he reduce received push damage and fall damage by 1 Niveau Max : 1"
+ },
+ {
+   "name": "Wind Grace (Elite)",
+   "description": " After casting a spell your allies Gain 1 Turn of Opportunity attack Immunity (not cumulable);(Require 3 Wind class skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Light Crusade",
+   "description": "Whenever an ally deal damage to an unholy add for 1 Piercing damage Niveau Max : 4"
+ },
+ {
+   "name": "Light Friendly unraveling",
+   "description": " When dealing more than 8 Damage , an ally lose 1 Negative Status  Niveau Max : 1"
+ },
+ {
+   "name": "Light friendly Mastery",
+   "description": "While in battle for each ally around you Gain 0.5HP if it’s a summon and 1 For player one Niveau Max : 1"
+ },
+ {
+   "name": "Light friendly prism",
+   "description": "Once per player when you Heal or Give a positive Status Give him also One focus of his choice (Reset when all player Receive one) Niveau Max : 1"
+ },
+ {
+   "name": "Chaos Luck",
+   "description": "After a reroll the target having reroll deal 1 More damage this turn Niveau Max : 4"
+ },
+ {
+   "name": "Friendly Chaos",
+   "description": " While giving a bonus to an ally , give him also a reroll (this bonus last until the beginning of your next turn ; a Reroll allow to roll again a dice or a coin)  Niveau Max : 1"
+ },
+ {
+   "name": "Chaos Tuning",
+   "description": " When a roll is made you can pay 1HP to give +1 to any of the dice roll in the action (or coin , the new value of the dice or coin can’t exceed the normal maximum : example : 1D8 can’t exceed 8)  Niveau Max : 1"
+ },
+ {
+   "name": "Chaos Master",
+   "description": " Before rolling a dice or coin , you can bet of the value of the dices , for each right answer gain a focus of your choice ( you don’t have to precise wich dice will have a value , just announce values)  Niveau Max : 1"
+ },
+ {
+   "name": "Chaotic Epiphany (Elite)",
+   "description": "For each action you can spend 1 Focus to Force the target to reroll ( The type of the focus used have to be the same as the one used for the attack) Niveau Max : 1"
+ },
+ {
+   "name": "Order smoothing",
+   "description": "Your Healing is increase by 1 Niveau Max : 4"
+ },
+ {
+   "name": "Order rigor",
+   "description": "Has long has you don’t deal any damage remove one Negative Status on yourself Niveau Max : 1"
+ },
+ {
+   "name": "Order mastery",
+   "description": "When you heal someone you can spend 1 Spirit to reduce by one the duration of a Negative Status Niveau Max : 1"
+ },
+ {
+   "name": "Order Liberty",
+   "description": "You can spend 3 Spirit to be immune for 1 Move of opportunity attack Niveau Max : 1"
+ },
+ {
+   "name": "Order Apotheosis (Elite)",
+   "description": " After you spend 3 Focus (any) , Your next healing will heal half more (couldown 2 turn);(require 3 Order skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Shadow crippling",
+   "description": "Allied heal 0.5 HP when they hit an enemy who have at least 1 of your negative Status Niveau Max : 4"
+ },
+ {
+   "name": "Shadow Sacrifice",
+   "description": "Whenever Ally have a Negative Status you can Redirect it on yourself Niveau Max : 1"
+ },
+ {
+   "name": "Shadow Sacrifice Mastery",
+   "description": "Each Status on you last 1 less turn Niveau Max : 1"
+ },
+ {
+   "name": "Shadow Embrace",
+   "description": "For each Status you have gain 1HP per turn Niveau Max : 1"
+ },
+ {
+   "name": "Shadow Hunger (Elite)",
+   "description": " Once per fight Clean all Negative Status at 5M of radius heal 2 HP for Each Status eaten;(require 3 Shadow skill)  Niveau Max : 1"
+ },
+ {
+   "name": "War soothing",
+   "description": "After giving a positive Status at an Ally his next action gain 1 Damage Niveau Max : 4"
+ },
+ {
+   "name": "War teaching",
+   "description": "For each of your Positive Status on him your ally Deal 1 more Damage Niveau Max : 1"
+ },
+ {
+   "name": "War Friendly mastery",
+   "description": "Lose 1 Positive Status reduce the cost of your ally next attack or spell by one Niveau Max : 1"
+ },
+ {
+   "name": "War friendly science",
+   "description": "When you cast a friendly spell enemies are not affected Niveau Max : 1"
+ },
+ {
+   "name": "War Banner (Elite)",
+   "description": " When you gain a positive Status give it instead at two ally in a 5M radius;(Require 3 point in war)  Niveau Max : 1"
+ },
+ {
+   "name": "Arcana Guidance",
+   "description": "Ally spell in a 5M radius ignore 1 Magic armor Niveau Max : 4"
+ },
+ {
+   "name": "Arcana Shielding",
+   "description": "After a spell Increase Ally spell in a 5M radius reduce spell damage by 2 Niveau Max : 1"
+ },
+ {
+   "name": "Arcana Generator",
+   "description": "At the beginning of a battle each ally Gain 1 Focus of his choice Niveau Max : 1"
+ },
+ {
+   "name": "Arcana Superbia (Elite)",
+   "description": " All your ally Form cost 1 Focus less;(Require 3 Arcana class skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Duality light",
+   "description": "Your healing (for duality spell) heal 2 HP per Vitality focus on the target ( Max 2hp per level of this skill) Niveau Max : 4"
+ },
+ {
+   "name": "Duality iron",
+   "description": "After healing an ally this ally gain 1 HP per attack this turn Niveau Max : 1"
+ },
+ {
+   "name": "Duality Perfectness",
+   "description": " As long as you haven’t taken any damage , you have one Free Focus for all your spell (not Vitality)  Niveau Max : 1"
+ },
+ {
+   "name": "Duality peace",
+   "description": "While out of fight your spell cost half focus Niveau Max : 1"
+ },
+ {
+   "name": "Duality Zenith (Elite)",
+   "description": " While giving a bonus to an ally (or Heal) you can also give him 2 of your focus or 1 of your energy;(Require 3 points in Duality)  Niveau Max : 1"
+ },
+ {
+   "name": "Knowledge Share",
+   "description": "Your allies can learn 1 more spell or technique Niveau Max : 4"
+ },
+ {
+   "name": "Telepath link",
+   "description": " You can create a telepath link to a Target (“Intervention” + “Telepath”) , you can cast spell from him and so he can  Niveau Max : 1"
+ },
+ {
+   "name": "Compass Share",
+   "description": "When asking for information you can Include characters who will get the information Niveau Max : 1"
+ },
+ {
+   "name": "Telekinetic move",
+   "description": "You can an ally up to your Telekinetic distance (cost 1 energy) ( Beware of opportunity attack) Niveau Max : 1"
+ },
+ {
+   "name": "Knowledge link (Elite)",
+   "description": " While having a call of knowledge with an ally , this ally can use your focus with your consent ( and same for you)(Require 3 point in knowledge)  Niveau Max : 1"
+ },
+ {
+   "name": "Summoning Teaching",
+   "description": "Unlock 3 Summoning or Summoning Form Niveau Max : 4"
+ },
+ {
+   "name": "Summoning army",
+   "description": "You can have 1 more summon Niveau Max : 1"
+ },
+ {
+   "name": "Summoning Longevity",
+   "description": "Your summon last 1 More turn and Have 5 More HP Niveau Max : 1"
+ },
+ {
+   "name": "Summoning Mastery",
+   "description": "Your summon deal 2 More damage Niveau Max : 1"
+ },
+ {
+   "name": "Summon Titan (Elite)",
+   "description": " Unlock Titan Form;(Require 3 Point in Summoning)  Niveau Max : 1"
+ },
+ {
+   "name": "Summoning Guardian",
+   "description": "Your summon take 2 Less damage Niveau Max : 1"
+ },
+ {
+   "name": "Summoning Eternity",
+   "description": "If you only have one his duration does not reduce Niveau Max : 1"
+ },
+ {
+   "name": "Summoning healing",
+   "description": "Each turn your summons heal 1 HP Niveau Max : 1"
+ },
+ {
+   "name": "Summoning Link (Elite)",
+   "description": " Whenever you take damage from any source , you can transfert half of them to your summon;(Require 3 Point in Summoning)  Niveau Max : 1"
+ },
+ {
+   "name": "Projectile student",
+   "description": "Increase your Projectile Range by 2M Niveau Max : 4"
+ },
+ {
+   "name": "Projectile rebond",
+   "description": "Your projectile spell chain to an other target of your choice (Reset the range) Deal 50% of the effect Niveau Max : 1"
+ },
+ {
+   "name": "Projectile Simplicity",
+   "description": "If your projectile spell cost more than 3 Reduce his cost by 1 Niveau Max : 1"
+ },
+ {
+   "name": "Projectile Mastery",
+   "description": " Your projectile deal 2 more damage , effect last 1 more turn and 2 heal one more HP  Niveau Max : 1"
+ },
+ {
+   "name": "Multiple projectile (Elite)",
+   "description": " For 2 Spirit Focus add 1 Projectile (Max 3);(Require 3 Point in Projectile)  Niveau Max : 1"
+ },
+ {
+   "name": "Meteor student",
+   "description": "Increase targeting range by 1M and explosion radius by 0.5M Niveau Max : 4"
+ },
+ {
+   "name": "Meteor Crush",
+   "description": "Target in the center of the meteor Is pushed in the border of the meteor radius Niveau Max : 1"
+ },
+ {
+   "name": "Meteor brutality",
+   "description": " Your meteor spell need 1 More vitality to be resist , blocked or dodged  Niveau Max : 1"
+ },
+ {
+   "name": "Meteor Stability",
+   "description": "You can spend 1 Brutality per component to deal physical damage with your Meteor Niveau Max : 1"
+ },
+ {
+   "name": "Meteor Shot (Elite)",
+   "description": " When you spend 3 focus in a Meteor Spell , you can make a Meteor spell being a projectile exploding at the first target in his path;(Require 3 Point in Meteor)  Niveau Max : 1"
+ },
+ {
+   "name": "Wall student",
+   "description": "Your wall are 2M wider Niveau Max : 4"
+ },
+ {
+   "name": "Wall Change",
+   "description": "Your wall can be Immaterial and apply they effect while passing through Niveau Max : 1"
+ },
+ {
+   "name": "Wall Hardness",
+   "description": "Your wall have 3 more HP per Focus used Niveau Max : 1"
+ },
+ {
+   "name": "Wall Mastery",
+   "description": "You can shape your wall when casting them Niveau Max : 1"
+ },
+ {
+   "name": "Wall shot (Elite)",
+   "description": " You can make appear your wall at a range of 10M;(Require 3 Wall Class Skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Shamanic student",
+   "description": "When someone die or is K-O Gain 0.5HP and 0.25 Focus Niveau Max : 4"
+ },
+ {
+   "name": "Shamanic outfit",
+   "description": " When wearing Clerian Pelt (see Races) you gain different bonus :;Ursian : Generate 1 More Brutality focus the third turn;Okkan : Generate 1 More Quickness focus the third turn;Bebokkan : Generate 1 More Quickness focus the third turn;Felkkan : Generate 1 More Spirit focus the third turn;Razzan : After the third turn convert 2 Focus in 2 other (different)  Niveau Max : 1"
+ },
+ {
+   "name": "Shamanic Mastery",
+   "description": " While wearing the Pelt of a Clerian , your speechcraft and Intimidation against them have a bonus of 1 Focus  Niveau Max : 1"
+ },
+ {
+   "name": "Shamanic heart",
+   "description": " After a full night gain a bonus from your Clerian Pelt :;(Each scene have those bonus);Ursian : Start with 1 More Brutality focus;Okkan : Start with 1 More Quickness focus;Bebokkan : Start with 1 More Quickness focus;Felkkan : Start with 1 More Spirit focus;Razzan : Convert 2 Focus in 2 other (different)  Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Shamanic Trance",
+   "description": " Every 3 spells Your next spell does not consume energy and have a bonus :;Ursian : Push away the target 5M from you;Okkan : The target is chilled for 1 T and 2 Bleed;Bebokkan : The target is 2 poisoned for 3 T;Felkkan : Target Lose 2 random Focus;Razzan : Steal one focus;(Require 3 Shamanic Skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Blood learning",
+   "description": " When you spend Vitality Focus for spell Gain 0,5 HP  Niveau Max : 4"
+ },
+ {
+   "name": "Blood using",
+   "description": "You can spend Vitality focus as Luck focus for casting spell Niveau Max : 1"
+ },
+ {
+   "name": "Blood suffering",
+   "description": "If you lose 2 time your level in HP in a turn gain 1 Vitality Focus Niveau Max : 1"
+ },
+ {
+   "name": "Blood purification",
+   "description": "When you use a Vitality Focus for a spell you can reduce by 1 the length of a Negative Status Niveau Max : 1"
+ },
+ {
+   "name": "Blood moon (Elite)",
+   "description": " Whenever you deal 2 time your level as damage (saved between turns) you gain 1 Vitality Focus;(need 3 blood point)  Niveau Max : 1"
+ },
+ {
+   "name": "Damage from behind",
+   "description": "Deal 2 Piercing damage from behind Niveau Max : 1"
+ },
+ {
+   "name": "Hidden Focus",
+   "description": "When focusing you can generate Luck Focus (who can be spend in replacement of any focus) up to 2 Luck Focus can be stored Niveau Max : 1"
+ },
+ {
+   "name": "Prepare focus",
+   "description": "You can’t Focus on the 2 first turn then your Focus action generate 2 Focus of your choice Niveau Max : 1"
+ },
+ {
+   "name": "Assassination student",
+   "description": "Damage from behind deal 1 Piercing Damage Niveau Max : 4"
+ },
+ {
+   "name": "Assassination Quickness",
+   "description": "After a killing blow gain 1 Energy Niveau Max : 1"
+ },
+ {
+   "name": "Assassination Mastery",
+   "description": "Your first successful hit have 1 more Dice Niveau Max : 1"
+ },
+ {
+   "name": "Assassination silent",
+   "description": "While you are furtive Half your damage are converted as piercing damage Niveau Max : 1"
+ },
+ {
+   "name": "Assassination god (Elite)",
+   "description": " After a kill you can teleport in the back of a target in your movement range;(Require 3 Point in assassination)  Niveau Max : 1"
+ },
+ {
+   "name": "Quickness student",
+   "description": "Increase your movement speed by 2M Niveau Max : 4"
+ },
+ {
+   "name": "Quickness of hand",
+   "description": "Your pickpocket have 1 Free focus Niveau Max : 1"
+ },
+ {
+   "name": "Quickness Mastery",
+   "description": "After a move deal More 1 Damage per Meter (Max : 4) Niveau Max : 1"
+ },
+ {
+   "name": "Quickness of initiative",
+   "description": "Start each fight with 6 More Initiative Niveau Max : 1"
+ },
+ {
+   "name": "Super Quickness (Elite)",
+   "description": " Each turn ignore the first opportunity attack against you;(Require 3 point in Quickness)  Niveau Max : 1"
+ },
+ {
+   "name": "Acrobatic student",
+   "description": "After a successful dodge deal 1 Piercing Damage on your next attack Niveau Max : 4"
+ },
+ {
+   "name": "Acrobatic love",
+   "description": "While taking damage you can spend 1 Quickness Focus or 1 Malice Focus to reduce by 1 The Received Damage (up to 3) Niveau Max : 1"
+ },
+ {
+   "name": "Acrobatic understanding",
+   "description": "After a successful Acrobatic Gain 1 Quickness Niveau Max : 1"
+ },
+ {
+   "name": "Acrobatic dance (Elite)",
+   "description": " If you spend more than 3 Focus in an Acrobatic deal 1d4 Piercing damage to the attacker;(Require 3 Acrobatic)  Niveau Max : 1"
+ },
+ {
+   "name": "Throwing student",
+   "description": "Throwing weapon deal 1 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Throwing skill",
+   "description": "Your throwing range is increased by 3 M Niveau Max : 1"
+ },
+ {
+   "name": "Throwing Mastery",
+   "description": "Your throwing weapon always deal at least 2 Piercing damage Niveau Max : 1"
+ },
+ {
+   "name": "Throwing economy",
+   "description": "You can always get your weapon back Niveau Max : 1"
+ },
+ {
+   "name": "Throwing injury (Elite)",
+   "description": " Your next attack again a target who have taken damage from your throwing suffer this damage again.;(Require 3 Throwing )  Niveau Max : 1"
+ },
+ {
+   "name": "Bow student",
+   "description": "Your bow deal 1 more damage Niveau Max : 4"
+ },
+ {
+   "name": "Bow safety",
+   "description": "After a successful shot move from 2M Niveau Max : 1"
+ },
+ {
+   "name": "Bow economy",
+   "description": "Your special arrows have 50% to be recovered Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Bow Dead Eye",
+   "description": "You spend one energy to deal the max damage;(Require 3 Bow)  Niveau Max : 1"
+ },
+ {
+   "name": "Shadow place",
+   "description": "You can exchange place with a shadow by sacrificing it Niveau Max : 1"
+ },
+ {
+   "name": "Shadow heal",
+   "description": "You can sacrifice 1 Of your shadow and 5 Focus of your choice to heal 25% of your life (3 T of cooldown) Niveau Max : 1"
+ },
+ {
+   "name": "Shadow terror (Elite)",
+   "description": " You can sacrifice all your shadow, to remove 1 Vitality Focus from a target if the target is under 0 , the target can’t move for 2 Turn and lose each turn 1 Vitality focus  Niveau Max : 1"
+ },
+ {
+   "name": "Magical student",
+   "description": "Learn 3 Component Niveau Max : 4"
+ },
+ {
+   "name": "Magical assassination",
+   "description": "When casting from behind your target your spell is one focus harder to resist Niveau Max : 1"
+ },
+ {
+   "name": "Magical Silence",
+   "description": "Your spell de not make any noise Niveau Max : 1"
+ },
+ {
+   "name": "Magical help",
+   "description": "When furtive your Positive Status gain 2 Turn Niveau Max : 1"
+ },
+ {
+   "name": "Magical backstab (Elite)",
+   "description": " When casting from behind your target your spell damage penetrate half of target magic resist;(Require any combination of 3 Magical skill or Rogue style Skill)  Niveau Max : 1"
+ },
+ {
+   "name": "Shortbow learning",
+   "description": " Add 0,5 physical damage to physical arrow  Niveau Max : 4"
+ },
+ {
+   "name": "Close range",
+   "description": "If the target is between 5 and 10m your ranged attacks deal 2 more damage Niveau Max : 1"
+ },
+ {
+   "name": "Arrow mastery",
+   "description": "Quiver size is increased by 3 (and doesn’t make the price to changed) Niveau Max : 1"
+ },
+ {
+   "name": "Status Arrow",
+   "description": "Arrows add 1 bleeding on hit Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Guard",
+   "description": "Choose a target at shooting range on it’s first move you gain an opportunity attack (need 3 bow point) Niveau Max : 1"
+ },
+ {
+   "name": "Status learning",
+   "description": " Any time you apply a Negative Status it last 0;5 turn in bonus , if it add a bleeding add 0,5 bleeding in bonus  Niveau Max : 4"
+ },
+ {
+   "name": "Vicious blow",
+   "description": "On a successful hit (from a one handed weapon : light or not) you can convert all damage in bleeding for half the converted damage Niveau Max : 1"
+ },
+ {
+   "name": "Poisonous intent",
+   "description": " If you deal 4 or more bleeding in a turn to a target , it also gain 2 poison for 2 turn  Niveau Max : 1"
+ },
+ {
+   "name": "Bleeding to death",
+   "description": "if a target have 10 or more bleeding it’s max Vitality focus is reduce by one Niveau Max : 1"
+ },
+ {
+   "name": "Red flow",
+   "description": " If a target have at least 5 of your bleeding when it attacks it lose 1HP per 5 bleeding, and 2hp while moving (need 3 Status point)  Niveau Max : 1"
+ },
+ {
+   "name": "Poison learning",
+   "description": " Each day you have 0,5 free poison (normal)  Niveau Max : 4"
+ },
+ {
+   "name": "Poison mastery",
+   "description": " When a weapon is poisoned, deal 2 more damage if it would deal damage  Niveau Max : 1"
+ },
+ {
+   "name": "Poison immunity",
+   "description": "You are immune to natural poison and take half damage from magical poison Niveau Max : 1"
+ },
+ {
+   "name": "Poison détection",
+   "description": "You are always aware of poison in your environment Niveau Max : 1"
+ },
+ {
+   "name": "Secret poison (Elite)",
+   "description": " Each day have 1 Free Complex Poison;(need 3 Status Point)  Niveau Max : 1"
+ },
+ {
+   "name": "Animal Resilience",
+   "description": "Your pet have 0.5 hp / level bonus Niveau Max : 4"
+ },
+ {
+   "name": "Animal bond",
+   "description": "While your pet is alive you deal 2 more damage Niveau Max : 1"
+ },
+ {
+   "name": "Animal Swap",
+   "description": "Out of battle you can switch of pet ( You can have up to two pets but only one with you) Niveau Max : 1"
+ },
+ {
+   "name": "Animal protection",
+   "description": "As long as your pet is close to you you have one more focus to dodge or parry Niveau Max : 1"
+ },
+ {
+   "name": "Combine attack (Elite)",
+   "description": "Every 3 attack the 3rd attack deal the pet damage as bonus damage (you need to attack the same target as him)(Require 3 point in Animal) Niveau Max : 1"
+ },
+ {
+   "name": "Animal armor",
+   "description": "Your pet reduce damage by 1 physical and 0.5 magical Niveau Max : 4"
+ },
+ {
+   "name": "Animal order",
+   "description": "You can command your pet to do complex action Niveau Max : 1"
+ },
+ {
+   "name": "Animal gift",
+   "description": "Your pet can give his passive to an ally as long as he is close (<2m) Niveau Max : 1"
+ },
+ {
+   "name": "Animal sacrifice",
+   "description": "You can redirect up to one dice of damage to your pet Niveau Max : 1"
+ },
+ {
+   "name": "Animal spirit",
+   "description": " You always have the passive ability of your current pet;(need 3 point in animal)  Niveau Max : 1"
+ },
+ {
+   "name": "Brew Magic",
+   "description": " You can create up to 1 Magical Brew , storing one of your spell having a level below or equal to your craft level  Niveau Max : 4"
+ },
+ {
+   "name": "Brew Potency",
+   "description": "Your Brew last one more turn (for effect over time) and deal 2 More damage (for direct damage) Niveau Max : 1"
+ },
+ {
+   "name": "Brew Filtering",
+   "description": "Your brew deal only half Damage to allies Niveau Max : 1"
+ },
+ {
+   "name": "Brew recycle",
+   "description": "You can sacrifice a brew to regain half of it’s focus Niveau Max : 1"
+ },
+ {
+   "name": "Brew Free form",
+   "description": "You don't pay the form when you put a spell into a bottle Niveau Max : 1"
+ },
+ {
+   "name": "Brew combination (Elite)",
+   "description": " You can have an extra Brew containing two spell at once;(those spell need to share the same form but can target different targets);(Require 3 point in Brew)  Niveau Max : 1"
+ },
+ {
+   "name": "Brew of healing",
+   "description": "Your Brew last one more turn (for effect over time) and Heal 2 More HP (for direct healing) Niveau Max : 1"
+ },
+ {
+   "name": "Brew dampening",
+   "description": "Your brew heal half the enemies Niveau Max : 1"
+ },
+ {
+   "name": "Brew conversion",
+   "description": "Your brew can be sacrified to heal 2 HP per Focus on the spell Niveau Max : 1"
+ },
+ {
+   "name": "Brew Cleaning",
+   "description": "Your support brew clean a negative statut Niveau Max : 1"
+ },
+ {
+   "name": "Brew Simplification (Elite)",
+   "description": " You can reduce by half the cost of your spell while creating a brew (this reduction doesn't count on Brew conversion or Brew Recycle );(Require 3 point in Brew)  Niveau Max : 1"
+ },
+ {
+   "name": "Necromancer student",
+   "description": " You can make a summon from a dead body reducing the cost of summoning by 1 (Convert magical damage to physical damage), Unlock 2 Summon Component  Niveau Max : 4"
+ },
+ {
+   "name": "Necromancer instinct",
+   "description": "Each time your summon kill you can cast a spell on the dead even if it’s not your turn (You still have to pay the focus) Niveau Max : 1"
+ },
+ {
+   "name": "Necromancer Mastery",
+   "description": "You can have 1 more undead summon Niveau Max : 1"
+ },
+ {
+   "name": "Necromancer authority",
+   "description": " You can make one of your undead explode dealing 3 Damage per focus use to summon it , this damage heal other undead  Niveau Max : 1"
+ },
+ {
+   "name": "Necromancer Dominion (Elite)",
+   "description": " At the end of a battle you can keep 1 of your summon;(2 at level 7 , 3 at level 14 , 4 at level 20);(Require 3 necromancer point)  Niveau Max : 1"
+ },
+ {
+   "name": "Necromancer learnings",
+   "description": " You can make a summon from a dead body this summon have 0,5 more hp for each of your level (Convert magical damage to physical damage), Unlock 2 Summon component  Niveau Max : 4"
+ },
+ {
+   "name": "Necromancer leeching",
+   "description": "Each Time your summon kill you gain half of your level in HP Niveau Max : 1"
+ },
+ {
+   "name": "Necromancer ward",
+   "description": "You can destroy one of your undead to create a shield on a target ( the number of HP of the shield is equal to the number of HP of the summon) Consume an action Niveau Max : 1"
+ },
+ {
+   "name": "Necromancer supremacy",
+   "description": "Each turn your undead heal 1HP and if they are under half their life they heal twice Niveau Max : 1"
+ },
+ {
+   "name": "Necromancer Eternity (Elite)",
+   "description": " When killed or sacrificed your minion resurrect one time their max HP is halved but keep their focus and initiative and turn;(Require 3 necromancer point)  Niveau Max : 1"
+ },
+ {
+   "name": "Rune student",
+   "description": " You can sustain 1 more rune .  No Form cost , Set up a symbol on the ground at 5 meters with a radius of 1,5m any entity walking or passing by activate the rune , destroying it and applying its effect.(1 rune at a time)  Niveau Max : 4"
+ },
+ {
+   "name": "Rune extension",
+   "description": "Increase the range of 3M to pose the rune Niveau Max : 1"
+ },
+ {
+   "name": "Rune detonation",
+   "description": " You can make your rune detonate by a word or action, when a rune detonate you can add 1 damage to all effect  Niveau Max : 1"
+ },
+ {
+   "name": "Rune Mastery",
+   "description": "Your rune are 1 focus harder to be dispelled and when there are Triggered or Detonated you regain one of its focus Niveau Max : 1"
+ },
+ {
+   "name": "Rune Portability (Elite)",
+   "description": " You can put one Rune per character , those rune count in your max Rune layed(Require 3 rune Point)  Niveau Max : 1"
+ },
+ {
+   "name": "Rune learning",
+   "description": " Your runes apply it's effect in 0,5 more meters  Niveau Max : 4"
+ },
+ {
+   "name": "Rune smart",
+   "description": "Your rune have Filter Niveau Max : 1"
+ },
+ {
+   "name": "Rune swap",
+   "description": " You can exchange a rune by an other by spending an action, you have to pay for it but you can reduce its price by the cost of the first one  Niveau Max : 1"
+ },
+ {
+   "name": "Rune Echo",
+   "description": "Your rune have a second charge Niveau Max : 1"
+ },
+ {
+   "name": "Rune stuffs (Elite)",
+   "description": " You can put a rune on weapon or armor , the wielder can pay the cost of the rune to apply it’s effect ( but any zone effect are reduce to self or contact & those rune count in your max rune quantity) (Require 3 point in rune)  Niveau Max : 1"
+ },
+ {
+   "name": "Magical weaponry",
+   "description": " You can summon any kind of weapon inside the equipment document , while the weapon is summoned you have to pay 1 of the focus spend to cast it ;First point : You can summon a bad quality weapon (Cost : 0 Focus);Second point : You can add effect to the spell and activate them by paying their cost on hit & You can summon a normal quality weapon (Cost : 1 Focus);Third point : You can summon a good quality weapon (Cost : 2 Focus);Fourth point : You no more pay focus each turn to maintain your mystical weapon;The focus used is determined here :;Spirit : Two handed , Bow (with infinite arrow dealing 1d4) ;Swiftness : Light weapon , throwing weapon;Brutality : One handed;Malice : Any mage weapon  Niveau Max : 4"
+ },
+ {
+   "name": "Magical projectile",
+   "description": " Your bow appear with 15 Magical arrow dealing Dealing 1d6 Damage + 2 ( Magical damage );Your throwing weapon reappear in your end at the beginning of your turn ,you can use one more focus to create one more up to 3  Niveau Max : 1"
+ },
+ {
+   "name": "Magical Swift change",
+   "description": "By spending 1 Focus you can change the type of your summoned weapon ( the focus is link to the type of weapon see summon weaponry) Niveau Max : 1"
+ },
+ {
+   "name": "Magical combo",
+   "description": " Each time you change weapon type you gain 2 Damage;(Type are : Bows / Wizard / One Hand / Light weapon / 2 hands) (up to 4 damage)  Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Magical potency",
+   "description": " You can apply for free on of the weapon extra effect(3 point in conjurer needed)  Niveau Max : 1"
+ },
+ {
+   "name": "Magical Multi weaponry",
+   "description": "You can summon 2 More weapons (you don’t have to spend extra focus to maintain and no extra cost & but have to be of the same type but not the same weapon ) Niveau Max : 1"
+ },
+ {
+   "name": "Magical protection",
+   "description": "Reduce all damage taken by one while having a magical weapon in hand Niveau Max : 1"
+ },
+ {
+   "name": "Magical echo",
+   "description": "Deal 1 Damage per magical weapon created and currently used (up to +5) Niveau Max : 1"
+ },
+ {
+   "name": "Magical armor (Elite)",
+   "description": " You can imbue with one effect up to 3 armor , the effect can be triggered while hit (the effect must be learn and payed by the wielder )  Niveau Max : 1"
+ },
+ {
+   "name": "Illusion Clone",
+   "description": " You can create 1 per level of this skill clone of yourself  and you can control them. (the clone appear next to you) and is an exact copy of you at all moment (It have 1 HP and have your current focus at all time);Form : Clone ; cost 1 Spirit ; Clone don’t deal damage; last 3 Turn;Form : Illusory object : Cost 1 Spirit : Create an object of Max 2m² Last 3 Hours ;Illusion can be detected by using Perception  Niveau Max : 4"
+ },
+ {
+   "name": "Illusion Trapped ",
+   "description": "You can add an effect that apply when a clone or a Simulacrum is destroyed by an opponent (Set in the spell) Niveau Max : 1"
+ },
+ {
+   "name": "Illusion sacrifice",
+   "description": "You can sacrifice 1 Clone or Simulacrum to add 1 Vitality Focus to your Parry or Resistance (up to 2 Time per turn) Niveau Max : 1"
+ },
+ {
+   "name": "Illusion mastery",
+   "description": "Your Clone deal 1 Damage when they succeed attacking Niveau Max : 1"
+ },
+ {
+   "name": "Illusion Shatter (Elite)",
+   "description": " While dealing damage - you can sacrifice all your clone to repeat half the damage per clone sacrificed(3 Point in illusionist and Clone at least level 1)  Niveau Max : 1"
+ },
+ {
+   "name": "Illusion Simulacrum",
+   "description": " You can create 1 per level of this skill clone of anyone. (the clone appear next to the target and rush to the nearest opponent) (It have 10 + 2 per level of this skill HP with a maximum of the target current HP );Component : Simulacrum; cost 1 Spirit ; Simulacrum don’t deal damage last 3 Turn;Component : Disguise ;cost 1 Spirit ; target ally is a Simulacrum of the caster or the caster become a Simulacrum of target ally for 3 Turn ;Illusion can be detected by using Perception  Niveau Max : 4"
+ },
+ {
+   "name": "Illusion support",
+   "description": "While a target have a simulacrum or a clone of itself it have a bonus of 1 Focus for attacking Niveau Max : 1"
+ },
+ {
+   "name": "Illusion doubt",
+   "description": " While moving if a target have a simulacrum or a clone of himself - opportunity attack don’t have a bonus and have a malus of 1 Focus  Niveau Max : 1"
+ },
+ {
+   "name": "Simulacrum Swap",
+   "description": "During your turn you can swap one target with his Simulacrum doing so cost 1 Vitality Niveau Max : 1"
+ },
+ {
+   "name": "Illusion Great Simulacrum (Elite)",
+   "description": " One time per battle and per character : if this character would be K-O you can sacrifice the simulacrum of this character to cancel the damage and set the HP of the target to the current HP of the simulacrum sacrificed(3 Point in illusionist and Simulacrum at least level 1)  Niveau Max : 1"
+ },
+ {
+   "name": "Spell study",
+   "description": "You can learn 2 other component of any element Niveau Max : 4"
+ },
+ {
+   "name": "Spell Flexibility",
+   "description": "You can change one focus of your spell to an other Niveau Max : 1"
+ },
+ {
+   "name": "Spell potency",
+   "description": "You can pay an extra focus while casting a spell increasing the difficulty by 1 , if you use luck increase it by 1 more and gain advantage Niveau Max : 1"
+ },
+ {
+   "name": "Spell sanctum",
+   "description": "After healing an ally ,damage can be reduce bellow 1 Niveau Max : 1"
+ },
+ {
+   "name": "Spell Removal",
+   "description": "While clean a condition you can remove an other on a close ally or the same target Niveau Max : 1"
+ },
+ {
+   "name": "Spell orator",
+   "description": "While casting a spell of a different element than the last , you can reduce by 1 the cost of this spell (minimum 1) Niveau Max : 1"
+ },
+ {
+   "name": "Spell mobility",
+   "description": "After a spell you can move for 2M Niveau Max : 1"
+ },
+ {
+   "name": "Spell Longevity",
+   "description": "Form who have a duration last one more turn Niveau Max : 1"
+ },
+ {
+   "name": "Spell evasion",
+   "description": "When you resist a spell you can decide that the target projectile continue it's course (only work on projectile) Niveau Max : 1"
+ },
+ {
+   "name": "Bow Precision",
+   "description": "Your first shot in a round have 1 more Focus Niveau Max : 1"
+ },
+ {
+   "name": "Bow Reaction",
+   "description": "If a target Move inside your shooting range you can pay 1 energy to take an opportunity attack against it Niveau Max : 1"
+ },
+ {
+   "name": "Dual Shot",
+   "description": "You can use two arrow  in a shot , this action is considered like one attack for passive , but the focus spend are split evenly (the damage are reduce to 75% round UP)  Niveau Max : 1"
+ },
+ {
+   "name": "Team work",
+   "description": "Ally around you deal 2 More damage Niveau Max : 1"
+ },
+ {
+   "name": "Phalanx",
+   "description": "Ally around reduce by 1 all physical damage Niveau Max : 1"
+ },
+ {
+   "name": "Inspiration",
+   "description": "Ally around gain 1 focus of their choice at the begining of their turn Niveau Max : 1"
+ },
+ {
+   "name": "Empower",
+   "description": "After rolling a double gain Enhancement for the next turn Niveau Max : 1"
+ },
+ {
+   "name": "Frenzy",
+   "description": "While rolling a 1 Gain 1 Focus ( Max 2 per turn and not Vitality) Niveau Max : 1"
+ },
+ {
+   "name": "Number of the dead",
+   "description": "While rolling a 4 deal 1 more damage Niveau Max : 1"
+ },
+ {
+   "name": "Spell study",
+   "description": "You can learn 2 other component of any element Niveau Max : 1"
+ },
+ {
+   "name": "Spell Flexibility",
+   "description": "You can change one focus of your spell to an other Niveau Max : 1"
+ },
+ {
+   "name": "Spell potency",
+   "description": "You can pay an extra focus while casting a spell increasing the difficulty by 1 , if you use luck increase it by 1 more and gain advantage Niveau Max : 1"
+ },
+ {
+   "name": "Spell sanctum",
+   "description": "After healing an ally ,damage can be reduce bellow 0 Niveau Max : 1"
+ },
+ {
+   "name": "Spell Removal",
+   "description": "While reducing the time of a condition you can do it again on a close target from the first Niveau Max : 1"
+ },
+ {
+   "name": "Spell orator",
+   "description": "While casting a spell of a different element than the last , you can reduce by 1 the cost of this spell (minimum 1) Niveau Max : 1"
+ },
+ {
+   "name": "Spell Logevity",
+   "description": "Form who have a duration last one more turn Niveau Max : 1"
+ },
+ {
+   "name": "Spell evasion",
+   "description": "When you resist a spell you can decide that the target projectile continue it's course (only work on projectile) Niveau Max : 1"
+ },
+ {
+   "name": "Burn Learnings",
+   "description": "Burn have an increase duration equal to the level of the spell (Max 1 ) Niveau Max : 4"
+ },
+ {
+   "name": "Burn Teaching",
+   "description": "Burn Deal bonus damage equal to the level of the spell ( Max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Comsuming Fire",
+   "description": "You can decide To not deal damage with your burn but to reduce a Status duration by the power of the burn Niveau Max : 1"
+ },
+ {
+   "name": "Devoring Flame",
+   "description": "Your burn reduce armor by half it's damage Niveau Max : 1"
+ },
+ {
+   "name": "Exploding Flame",
+   "description": "Consume all burn to deal 50% of it's total damage now Niveau Max : 1"
+ },
+ {
+   "name": "Holy Fire",
+   "description": "Burn on ally Increase all their dice by 1 Niveau Max : 1"
+ },
+ {
+   "name": "Burning Panique",
+   "description": "Burning target hve 50% more movement speed Niveau Max : 1"
+ },
+ {
+   "name": "Bonfire",
+   "description": "Burning a target leave a small bonfire under him , target moving throw get burn for 50% of the original burn Niveau Max : 1"
+ },
+ {
+   "name": "WildFire (Elite)",
+   "description": "For 1 of each focus choose one target and all target around it not burning gain the same burn , repeat it Niveau Max : 1"
+ },
+ {
+   "name": "Phoenix (Elite)",
+   "description": "If an ally burn you can cancel a K-O by consuming the burn and Giving him The total damage the burn would do as HP , 1 Time per target Niveau Max : 1"
+ },
+ {
+   "name": "Ash learning",
+   "description": "After a burn stopped Apply 1 Ash stacks Niveau Max : 4"
+ },
+ {
+   "name": "Ash Teaching",
+   "description": "You can consume 2 ash to gain 1 Focus Niveau Max : 4"
+ },
+ {
+   "name": "Ash dampening",
+   "description": "If a target have a Stack of ash reduce received healing by Two time the amount of stacks Niveau Max : 1"
+ },
+ {
+   "name": "Ash armor",
+   "description": "You can consume any number of ash to reduce damage received by any target by that amount Niveau Max : 1"
+ },
+ {
+   "name": "Ash razor",
+   "description": "You can consum half of stacks of Ash to deal the double as damage to the target or an other at melee range Niveau Max : 1"
+ },
+ {
+   "name": "Ash curse",
+   "description": "Status can't be purged as long as their is Ash on the target Niveau Max : 1"
+ },
+ {
+   "name": "Ash Purge",
+   "description": "You can remove as many Ash as you want to reduce the duration of chosen a statut  Niveau Max : 1"
+ },
+ {
+   "name": "Ashen Precense",
+   "description": "Target around you gain 1 Ash each turn Niveau Max : 1"
+ },
+ {
+   "name": "Ash Control (Elite)",
+   "description": "For 1 Energy you can move Any number of ash on a target to an other Niveau Max : 1"
+ },
+ {
+   "name": "Ash screen (Elite)",
+   "description": "You can remove any number of ash on a target this target can move without any opportunity attack and for each 4 stacks consumed it gain 1 Turn of invisibility Niveau Max : 1"
+ },
+ {
+   "name": "Chill Learnings",
+   "description": "Chill  have an increase duration equal to the level of the spell (Max 1 ) Niveau Max : 4"
+ },
+ {
+   "name": "Chill Teaching",
+   "description": "As long as you have one or more Chilled target grant you 0.5 Focus per turn Niveau Max : 4"
+ },
+ {
+   "name": "Frostbite",
+   "description": "Chilled target take 1 Piercing damage each time there are hit Niveau Max : 1"
+ },
+ {
+   "name": "Chill armor",
+   "description": "As long as an ally have a chill damage are reduced by 1 Niveau Max : 1"
+ },
+ {
+   "name": "Chill Blood",
+   "description": "As long as a target is chilled Bleeding is ignored but does not reduce Niveau Max : 1"
+ },
+ {
+   "name": "Chill Cleanse",
+   "description": "When applied on ally Chill reduce for as much time as it last Burn Niveau Max : 1"
+ },
+ {
+   "name": "Chill heal",
+   "description": "As long as an ally have a chill it heal for 1 HP , and 1 More if he is under 50% Hp Niveau Max : 1"
+ },
+ {
+   "name": "Chill Brain",
+   "description": "Your can Reduce any focus instead of Brutality Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Cryostase",
+   "description": "Every 3 Turn you can trap anyone chilled into ice making it invunerable until next turn (does not work against boss)  Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Ice tomb",
+   "description": "Target lose 1HP per turn while chilled , and one more each time You apply a new Chill Niveau Max : 1"
+ },
+ {
+   "name": "Frozen Feet learning",
+   "description": "Frozen Feet   have an increase duration equal to the level of the spell (Max 1 ) Niveau Max : 4"
+ },
+ {
+   "name": "Frozen Feet Teaching",
+   "description": "Frozen Feet reduce furthermore the move speed by the level of the spell ( Max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Frozen Feet break",
+   "description": "If you push a Frozen Feet target It take as much D4 as Half ot the remaining duration of the Feet Frozen Niveau Max : 1"
+ },
+ {
+   "name": "Frozen feet glide",
+   "description": "For 1 focus you can invert the effect of the Feet Frozen Niveau Max : 1"
+ },
+ {
+   "name": "Frozen feet Leftover",
+   "description": "Feet frozen  leave a square of 1.5M zone of difficult movement , target crossing The zone have to pay 1 Swiftness Focus Or lose their turn , if a target is runing (2Move) they have to pay 3 swiftness focus Niveau Max : 1"
+ },
+ {
+   "name": "Ice skate",
+   "description": "Frozen feet on you doesn't reduce your move speed and you move speed is not reduced on water and ice (ignore the malus of  Frozen feet Leftover  ) Niveau Max : 1"
+ },
+ {
+   "name": "Feet Frostbite",
+   "description": "After a Frozen feet each 1.5M cost  1HP For 2T Niveau Max : 1"
+ },
+ {
+   "name": "Feet and Fist Weaponery",
+   "description": "Ally wit Frozen Feet have this bonus : Fist and Feet damage Deal 2 More damage And apply Chill For 1 Turn Niveau Max : 1"
+ },
+ {
+   "name": "Frozen Feet dominion (Elite)",
+   "description": "If a target have 5 or more turn of Frozen Feet  You force it to move at half speed for 1 of your energy Niveau Max : 1"
+ },
+ {
+   "name": "Frozen Feet Stability (Elite)",
+   "description": "If a target move while having frozen feet Remove ony half of the duration instead of the Status Niveau Max : 1"
+ },
+ {
+   "name": "Push learning",
+   "description": "Pushing a target into an other push the other for 25% of the initial value Niveau Max : 4"
+ },
+ {
+   "name": "Push teaching",
+   "description": "Add 0.5 damage on each fall dice Niveau Max : 4"
+ },
+ {
+   "name": "Push punch",
+   "description": "Pushing a target into an other deal half of the remaining distance as fall damage on both Niveau Max : 1"
+ },
+ {
+   "name": "Push inverse ",
+   "description": "You can inverse the direction of a push Niveau Max : 1"
+ },
+ {
+   "name": "Wind clean",
+   "description": "When pushing a target you can remove 1 turn or 1 stacks of all targets current status Niveau Max : 1"
+ },
+ {
+   "name": "Wind direction",
+   "description": "Target push must pay 1 brutality focus to move in the inverse direction of your push for the next turn Niveau Max : 1"
+ },
+ {
+   "name": "Wind break",
+   "description": "Target push lose 1 focus and cancel cast Niveau Max : 1"
+ },
+ {
+   "name": "Wind strenght",
+   "description": "Your push can move heavy item like Boulder or cars Niveau Max : 1"
+ },
+ {
+   "name": "Wind shield (Elite)",
+   "description": "After a push all projectile targeting you can be redirected to an other target, physical or magical. Passively all projectile have one less focus against you Niveau Max : 1"
+ },
+ {
+   "name": "Compression (Elite)",
+   "description": "Fall damage with your spell are now 1D6 Niveau Max : 1"
+ },
+ {
+   "name": "Charged learning",
+   "description": "Charged have an increase duration equal to the level of the spell (Max 1 ) Niveau Max : 4"
+ },
+ {
+   "name": "Charged teaching",
+   "description": "Charged have bonus damage equal to the level of the spell ( Max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Charged conductivity",
+   "description": "When melee opponent damage you they are Charged for 1 turn for half the damage Niveau Max : 1"
+ },
+ {
+   "name": "Charged inside",
+   "description": "Charged inflict 50% more damage to heavy armored foes  Niveau Max : 1"
+ },
+ {
+   "name": "Charged propagation",
+   "description": "When applying Charged to a target all target in a zone of liquid are Charged too Niveau Max : 1"
+ },
+ {
+   "name": "Energy overdose",
+   "description": "When you apply a Charged you can choose to generate a focus for the target Niveau Max : 1"
+ },
+ {
+   "name": "Energy conduit",
+   "description": "When you are Charged you can spend 1 focus per 5 damage of the Charged value to deal that much damage at a target Niveau Max : 1"
+ },
+ {
+   "name": "Inflamable",
+   "description": "When The Charged Status is activated , the target gain a burn equal to 25% of the damage dealt For 3 Turn Niveau Max : 1"
+ },
+ {
+   "name": "Explosion (Elite)",
+   "description": "If a target is charged 2 Time deal damage to close target equal to the smallest charge Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Discharge",
+   "description": "Once every 5 Shock applied you gain one Energy and 2 Focus Niveau Max : 1"
+ },
+ {
+   "name": "Armor teaching",
+   "description": "Physical Armor Status (poisitve and negative ) have a bonus equal the the level of the spell ( Max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Armor learning",
+   "description": "Magical Armor Status (poisitve and negative ) have a bonus equal the the level of the spell ( Max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Armor Dampening",
+   "description": "Damage can be reduce while an armor of the right type is effective , each turn without receiving damage  the target heal 1 HP Niveau Max : 1"
+ },
+ {
+   "name": "Armor Protection",
+   "description": "While a target have one of your physical armor status  , they can't get new bleeding , burn or poison. While a target have one of your Magical armor status  , they can't get Chill , Shocked or Mad Niveau Max : 1"
+ },
+ {
+   "name": "Mind cage",
+   "description": "While a target have one of your armor status : Each time an effect should reduce they focus they reduce that effect by 1 (Minimum 1) Niveau Max : 1"
+ },
+ {
+   "name": "Sharp Protection",
+   "description": "While a target have one of your armor status : When attack damage they life they deal 25% of those damage around them (the type of damage depend of the armor type) Niveau Max : 1"
+ },
+ {
+   "name": "Tools of protection",
+   "description": "When you apply an Armor create also a Life shield equal to the armor for 1 Turn Niveau Max : 1"
+ },
+ {
+   "name": "Sunder",
+   "description": "Negative armor increase damage received Niveau Max : 1"
+ },
+ {
+   "name": "(Elite )Armor Detonation",
+   "description": "You can make one of your armor explode dealing damage to those around it equal to the sum of the duration and the potency. You gain 1 Focus for each target Hit. The focus to resist are equal to the one used to cast the spell . Niveau Max : 1"
+ },
+ {
+   "name": "Armor Negation (Elite)",
+   "description": "You can remove one of your Armor Status to give a life shield Equal to the Potency X Duration Hp for 1 T. (Can be used at any moment ) Niveau Max : 1"
+ },
+ {
+   "name": "Healer learning",
+   "description": "Spell that heal have a potency bonus equal to the level of the spell ( max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Heal teaching ",
+   "description": "Spell that remove time on Status remove one more turn or stacks per spell level ( max 1)  Niveau Max : 4"
+ },
+ {
+   "name": "Restoration ",
+   "description": "If you heal the same turn that the target have taken damage, heal 2 more HP Niveau Max : 1"
+ },
+ {
+   "name": "Corrupted hearts",
+   "description": "Curse status make healing damage the target instead of being ignored Niveau Max : 1"
+ },
+ {
+   "name": "Holy care",
+   "description": "When heal you can increase by 1 the duration of a status Niveau Max : 1"
+ },
+ {
+   "name": "Life preserver",
+   "description": "While healing, overheal is converted as 1 life shield for 1 turn Niveau Max : 1"
+ },
+ {
+   "name": "Benediction",
+   "description": "While applying a positive Status heal 1 hp per spell level Niveau Max : 1"
+ },
+ {
+   "name": "Heal the mind",
+   "description": "While healing more than 5 hp , target gain 1 focus of they choice ( 1 time per character , per turn ) Niveau Max : 1"
+ },
+ {
+   "name": "Salvation (Elite)",
+   "description": "When healing If the target is under 25% hp you can pay 1 vitality to apply your level as bonus healing  Niveau Max : 1"
+ },
+ {
+   "name": "Holy presence (Elite)",
+   "description": "Each turn your ally gain 1Hp or lose 1 turn of status Niveau Max : 1"
+ },
+ {
+   "name": "Boon learnings ",
+   "description": "Boon that have a duration have a bonus to it equal of the spell level ( max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Boon teaching",
+   "description": "Boon that have stack apply as many more as its spell level ( max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Strong boon",
+   "description": "While a spell, an attack, a potion or an event remove time of your Boon remove 1 less turn Niveau Max : 1"
+ },
+ {
+   "name": "Shattering strenght",
+   "description": "Ally with one of your positive Status (Boon) deal 1 more damage Niveau Max : 1"
+ },
+ {
+   "name": "Guiding spirit",
+   "description": "When you apply a positive Status you gain it for 1 turn Niveau Max : 1"
+ },
+ {
+   "name": "Will full boon",
+   "description": "When purged your Boon deal their spell as damage to the caster Niveau Max : 1"
+ },
+ {
+   "name": "Heroic boon",
+   "description": "When applying a Boon remove one turn to a negative status on the same target Niveau Max : 1"
+ },
+ {
+   "name": "Corrupting will",
+   "description": "When applying a Boon your next Hex is 1 focus hafde to resist Niveau Max : 1"
+ },
+ {
+   "name": "Hour of glory (Elite)",
+   "description": "One time per battle you can set the duration to 3  to all your boon Niveau Max : 1"
+ },
+ {
+   "name": "Enchanted glory (Elite)",
+   "description": "Ally deal 1 more damage per different Boon affecting them Niveau Max : 1"
+ },
+ {
+   "name": "Hex  learning",
+   "description": "Hex that have a duration have a bonus to it equal of the spell level ( max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Hex teaching",
+   "description": "Hex that have stack apply as many more as its spell level ( max 1) Niveau Max : 4"
+ },
+ {
+   "name": "Surprise hex",
+   "description": "In the first turn your hex are one focus harder to resist Niveau Max : 1"
+ },
+ {
+   "name": "Hex revenge",
+   "description": "Purging an hex deal damage equal to the removed duration or stacks Niveau Max : 1"
+ },
+ {
+   "name": "Hex reflect",
+   "description": "If you resist a spell that would create any negative status you can redirect that status to the caster    Niveau Max : 1"
+ },
+ {
+   "name": "Living Hex",
+   "description": "Chose a negative status in your list of component, when hit you can apply it for free but it last 1 turn. ( Cost 1 focus to resist)  Niveau Max : 1"
+ },
+ {
+   "name": "Hexed soul",
+   "description": "If you have an hex on you all spell sharing an hex with one you have on you have 1 free focus Niveau Max : 1"
+ },
+ {
+   "name": "Curse master",
+   "description": "You can apply healing through Curse but for only 50% efficiency  Niveau Max : 1"
+ },
+ {
+   "name": "(Elite)Downfall",
+   "description": "Every 3 turn, all your hex gain 1 turn Niveau Max : 1"
+ },
+ {
+   "name": "Hex care (Elite)",
+   "description": "For 1 energy you can redirect 1 Hex from one target to an other Niveau Max : 1"
+ },
+ {
+   "name": "Pyromancer ",
+   "description": "Fire spell deal 1 more damage if Deal bonus damage equal to the level of the spell ( Max 1) , and this bonus is double if the target burn or have Ash Niveau Max : 4"
+ },
+ {
+   "name": "Cryomancer",
+   "description": "Ice spell deal 1 more damage if Deal bonus damage equal to the level of the spell ( Max 1) , and this bonus is double if the target is Chill or have FeetFrozen Niveau Max : 4"
+ },
+ {
+   "name": "Aeromancer",
+   "description": "Wind spell deal 1 more damage if Deal bonus damage equal to the level of the spell ( Max 1) , and this bonus is double if the target is Charged or have been pushed in the turn Niveau Max : 4"
+ },
+ {
+   "name": "Geomancer ",
+   "description": "Earth spell deal 1 more damage if Deal bonus damage equal to the level of the spell ( Max 1) , and this bonus is double if the caster have more armor or the target don't have any Niveau Max : 4"
+ },
+ {
+   "name": "Elementalist",
+   "description": "Each turn roll a D4 : on 1 : Your Fire spell deal 2 more damage , on 2 : Your earth spell deal 2 more damage , on 3 your Wind spell deal 2 more damage , on 4 your water spell deal 2 more damage   Niveau Max : 1"
+ },
+ {
+   "name": "Element mastery  ",
+   "description": "As long as you only cast spell of 1 Element , they cost 1 less focus and other 1 more Niveau Max : 1"
+ },
+ {
+   "name": "Fire Heart (Elite)",
+   "description": "Fire Damage no more damage you and heal you for 50% of the damage , You can't cast Ice spell Niveau Max : 1"
+ },
+ {
+   "name": "Ice mind (Elite)",
+   "description": "Ice Damage no more damage you and Give you 50% of the focus used to cast the spell at the begining of next turn , You can't cast Fire spell Niveau Max : 1"
+ },
+ {
+   "name": "Thunder Reflex (Elite)",
+   "description": "Wind Damage no more damage you ,Teleporting you at up to 5M and make you immune to projectile , You can't cast Earth spell Niveau Max : 1"
+ },
+ {
+   "name": "Earth Blood (Elite)",
+   "description": "You are immune to Bleed and Poison , Damaging status deal half damage and you can't be push , You can't cast Wind Spell Niveau Max : 1"
+ },
+ {
+   "name": "Filter Innate",
+   "description": "Your Damage Spell only have Half potency on ally and Support Spell have half potency on opponent . If you know The filter metamagic Apply it for free instead Niveau Max : 1"
+ },
+ {
+   "name": "Piercing truth",
+   "description": "You can combine Bounce And Piercing without extra cost  Niveau Max : 1"
+ },
+ {
+   "name": "Superior Range",
+   "description": " Range +  Alsor increase by 1.5 the area of effect of spells Niveau Max : 1"
+ },
+ {
+   "name": "Ricochet And Recall",
+   "description": "After a Ricochet you can apply Recall , Now Recall pierce all target on it's way and lose 25% of it's max potency each time it pierce Niveau Max : 1"
+ },
+ {
+   "name": "Spell Dynamo and Charge",
+   "description": "Charge have now 6 Use and Spell allow you to duplicate the spell instead of reducing it's cost Niveau Max : 1"
+ },
+ {
+   "name": "Node Nexus",
+   "description": "You can Apply at the same time with no extra cost  Spell Nexus  and  Node Empower  , you can now see the nodes. If you have a pure materia of the element 3 time Per day you can use them like there was a node Niveau Max : 1"
+ },
+ {
+   "name": "Master of Flexibility ",
+   "description": " Unification  And  Form Changer  are now free ,  Changing  can now  be used between 2 hit ( example : Chain Or Ray and not Rain and Zone ) Niveau Max : 1"
+ },
+ {
+   "name": "Favor Upgrade",
+   "description": " Favor  can be used as a component givint it's effect as a Boon that last 1 Turn and now Cost 1 focus Niveau Max : 1"
+ },
+ {
+   "name": "Meta-Utility (Elite)",
+   "description": "You learn 1 Utility Component per Metamagic Level , Utility spell are free out of battle Niveau Max : 1"
+ },
+ {
+   "name": "Meta Element (Elite)",
+   "description": "You can change the element of your spell and get all the passive bonus of the new element Niveau Max : 1"
+ },
+ {
+   "name": "Life steal learning",
+   "description": "Life steal damage  have an increase damage equal to the level of the spell (Max 1 )  Niveau Max : 4"
+ },
+ {
+   "name": "Life steal teaching",
+   "description": "Life steal heal  have an increase healing equal to the level of the spell (Max 1 )  Niveau Max : 4"
+ },
+ {
+   "name": "Reaper",
+   "description": "When you kill or set a target k-o you can steal 2 of their boon Niveau Max : 1"
+ },
+ {
+   "name": "Mind suck",
+   "description": "Life steal are 1 focus harder to resist if the target have an Hex Niveau Max : 1"
+ },
+ {
+   "name": "Blood harvest",
+   "description": "If you deal at least 5 damage with a lifesteal add 1 bleeding and if you heal of 5 or more gain 1 Regeneration Niveau Max : 1"
+ },
+ {
+   "name": "Blood corruption",
+   "description": "Life steal on bleeding target aplly a poison of 1 damage for 3 turn Niveau Max : 1"
+ },
+ {
+   "name": "Hex drain",
+   "description": "When life stealing an ally for each 2 damage remove 1 turn of a negative status Niveau Max : 1"
+ },
+ {
+   "name": "One way drain",
+   "description": "On undead your life steal is not inversed Niveau Max : 1"
+ },
+ {
+   "name": "Focus Drain (Elite)",
+   "description": "For each 5 damage dealt steal one focus ( max 4)  Niveau Max : 1"
+ },
+ {
+   "name": "Blood share (Elite)",
+   "description": "You decide to give the healing from a lifesteal to an other target in range Niveau Max : 1"
+ },
+ {
+   "name": "Projectile upgrade",
+   "description": "Projectile can now generate a second smaller projectile with 25% potency Niveau Max : 1"
+ },
+ {
+   "name": "Zone upgrade",
+   "description": "Zone area of effect can now be increased or decreased by 25% Niveau Max : 1"
+ },
+ {
+   "name": "Ray upgrade",
+   "description": "Ray can now bounce on time on a wall before fading a way  Niveau Max : 1"
+ },
+ {
+   "name": "Intervention upgrade",
+   "description": "Intervention is now 15m range Niveau Max : 1"
+ },
+ {
+   "name": "Breath upgrade",
+   "description": " Breath angle is now 180° Niveau Max : 1"
+ },
+ {
+   "name": "Shockwave upgrade",
+   "description": "Shockwave range is increase by 50% ( applied after bonus)  Niveau Max : 1"
+ },
+ {
+   "name": "Touch upgrade",
+   "description": "Touch can target an other target Niveau Max : 1"
+ },
+ {
+   "name": "Dome upgrade",
+   "description": "Target inside the dome get 50% of the effect each turn Niveau Max : 1"
+ },
+ {
+   "name": "Bomb upgrade ",
+   "description": "Potency of spell is increased by 25% Niveau Max : 1"
+ },
+ {
+   "name": "Random target upgrade ",
+   "description": "You can choose between ally and opponent Niveau Max : 1"
+ },
+ {
+   "name": "Change Of Arrow",
+   "description": "Each time you use an other arrow deal 1 More damage Niveau Max : 4"
+ },
+ {
+   "name": "Arrow Longevity (Elite)",
+   "description": "Effect that have a turn have one more  Niveau Max : 1"
+ },
+ {
+   "name": "Compressed Arrow",
+   "description": "Increase all Area or range by 1M Niveau Max : 1"
+ },
+ {
+   "name": "Arrow Crafting",
+   "description": "You can craft Rare arrows Niveau Max : 1"
+ },
+ {
+   "name": "Shot mastery",
+   "description": "While using a technic with your special arrow the malus are reduce by 1 Niveau Max : 1"
+ },
+ {
+   "name": "Alchemycal Mastery",
+   "description": "You can craft Level 1 Alchemycal Elixir Niveau Max : 4"
+ },
+ {
+   "name": "Alchemy Universalis",
+   "description": "You can choose to craft Alchemical Elixir with any of your crafting skills ( except Forge) Niveau Max : 1"
+ },
+ {
+   "name": "Alchemy Gold",
+   "description": "Reduce crafting cost of Alchemycal Elixir by 75% Niveau Max : 1"
+ },
+ {
+   "name": "Alchemy Longvity",
+   "description": "Your Alchemical Elixir last 2 More turn Niveau Max : 1"
+ },
+ {
+   "name": "Alchemy Improvise",
+   "description": "You can create 1 time per turn at the cost of one action and Gold one Alchemical Elixir  Niveau Max : 1 (Elite)"
+ },
+ {
+   "name": "Alchemy Combination (Elite)",
+   "description": " You can combine 2 Alchemycal Elixir in a new one. Niveau Max : 1"
+ }
+]

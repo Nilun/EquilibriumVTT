@@ -24,6 +24,10 @@
     }
   }
 
+  ul.vertical, ol.vertical {
+    display: unset !important;
+  }
+
   .sheet-header {
     overflow: hidden;
     display: flex;
@@ -32,12 +36,16 @@
     justify-content: flex-start;
     margin-bottom: 10px;
 
+    .header-image {
+      width: 110px;
+      flex: none;
+    }
+
     .top-info {
       justify-content: space-between;
       padding-bottom: 2px;
 
       ul, ol {
-        display: unset;
         margin: 0;
       }
       .value {

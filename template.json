@@ -277,7 +277,7 @@
 	},	
 	"Item": {
 		"types": [
-			"item","passif","spell","component","weapon","technic"
+			"item","armor", "passif","spell","component","weapon","technic"
 		],
 		"templates":{
 			"description": {
@@ -297,6 +297,11 @@
 			"templates": ["description", "physicalItem"],
 			"damage": "",
 			"skill": ""
+		},
+		"armor" : {
+			"templates": ["description", "physicalItem"],
+			"physicalArmor": 0,
+			"magicalArmor": 0
 		},
 		"passif" :
 		{

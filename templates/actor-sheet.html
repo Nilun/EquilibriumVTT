@@ -2,11 +2,38 @@
 
     {{!-- Sheet Header --}}
     <header class="sheet-header">
-        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
+        <div class="header-image">
+            <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
+            <div class="flex armor-info">
+                <ul class="vertical">
+                    <li class="header-resource">
+                        <div class="flex stat-physical-armor value">
+                            <span class="value-separator"><i class="fas fa-shield-alt"></i>:</span>
+                            <input type="text" class="armor-display" 
+                            readonly
+                            name="physicalArmor" 
+                            value="{{physicalArmor}}"
+                            data-dtype="Number" 
+                            maxlength="2"/>
+                        </div>
+                    </li>
+                    <li class="header-resource">
+                        <div class="flex stat-magical-armor  value">
+                            <span class="value-separator"><i class="fas fa-hand-sparkles"></i>:</span>
+                            <input type="text" class="armor-display"
+                            readonly
+                            name="magicalArmor"
+                            value="{{magicalArmor}}"
+                            data-dtype="Number"/>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="header-fields">
             <section class="flex top-info">
                 <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
-                <ul>
+                <ul class="vertical">
                     <li class="header-resource">
                         <div class="flex stat-level value">
                             <span class="value-separator">Level:</span>

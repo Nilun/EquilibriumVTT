@@ -14,5 +14,9 @@
     "EQUILIBRIUM.Spell": "Spell",
     "EQUILIBRIUM.Technics": "Technics",
     "EQUILIBRIUM.Technic": "Technic",
-    "EQUILIBRIUM.Currency": "Courones"
+    "EQUILIBRIUM.Currency": "Courones",
+    "EQUILIBRIUM.PhysicalArmor": "Physical Armor",
+    "EQUILIBRIUM.MagicalArmor": "Magical Armor",
+    "EQUILIBRIUM.Armors": "Armors",
+    "EQUILIBRIUM.Armor": "Armor"
 }

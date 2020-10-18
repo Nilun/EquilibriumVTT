@@ -1,0 +1,212 @@
+[
+ {
+   "name": "Cloth (Bad)",
+   "armor": 0,
+   "resist": 1,
+   "description": "",
+   "descriptionG": " Physical Armor  :0 Magical Armor : 1"
+ },
+ {
+   "name": "Cloth (Normal)",
+   "armor": 0,
+   "resist": 2,
+   "description": "",
+   "descriptionG": " Physical Armor  :0 Magical Armor : 2"
+ },
+ {
+   "name": "Cloth (Good)",
+   "armor": 0,
+   "resist": 3,
+   "description": "",
+   "descriptionG": " Physical Armor  :0 Magical Armor : 3"
+ },
+ {
+   "name": "Velvet (Bad)",
+   "armor": 0,
+   "resist": 2,
+   "description": "",
+   "descriptionG": " Physical Armor  :0 Magical Armor : 2"
+ },
+ {
+   "name": "Velvet (Normal)",
+   "armor": 0,
+   "resist": 4,
+   "description": "",
+   "descriptionG": " Physical Armor  :0 Magical Armor : 4"
+ },
+ {
+   "name": "Velvet (Good)",
+   "armor": 0,
+   "resist": 6,
+   "description": "",
+   "descriptionG": " Physical Armor  :0 Magical Armor : 6"
+ },
+ {
+   "name": "Clerian Fur (Bad)",
+   "armor": 0,
+   "resist": 2,
+   "description": "Illegal ; +1 Infusion Slot",
+   "descriptionG": "Illegal ; +1 Infusion Slot Physical Armor  :0 Magical Armor : 2"
+ },
+ {
+   "name": "Clerian Fur (Normal)",
+   "armor": 0,
+   "resist": 4,
+   "description": "Illegal ; +1 Infusion Slot",
+   "descriptionG": "Illegal ; +1 Infusion Slot Physical Armor  :0 Magical Armor : 4"
+ },
+ {
+   "name": "Clerian Fur (Good)",
+   "armor": 0,
+   "resist": 6,
+   "description": "Illegal ; +1 Infusion Slot",
+   "descriptionG": "Illegal ; +1 Infusion Slot Physical Armor  :0 Magical Armor : 6"
+ },
+ {
+   "name": "Fur (Bad)",
+   "armor": 1,
+   "resist": 1,
+   "description": "Count as mage armor",
+   "descriptionG": "Count as mage armor Physical Armor  :1 Magical Armor : 1"
+ },
+ {
+   "name": "Fur (Normal)",
+   "armor": 1,
+   "resist": 2,
+   "description": "Count as mage armor",
+   "descriptionG": "Count as mage armor Physical Armor  :1 Magical Armor : 2"
+ },
+ {
+   "name": "Fur (Good)",
+   "armor": 1,
+   "resist": 3,
+   "description": "Count as mage armor",
+   "descriptionG": "Count as mage armor Physical Armor  :1 Magical Armor : 3"
+ },
+ {
+   "name": "Leather (Bad)",
+   "armor": 1,
+   "resist": 1,
+   "description": "",
+   "descriptionG": " Physical Armor  :1 Magical Armor : 1"
+ },
+ {
+   "name": "Leather (Normal)",
+   "armor": 2,
+   "resist": 2,
+   "description": "",
+   "descriptionG": " Physical Armor  :2 Magical Armor : 2"
+ },
+ {
+   "name": "Leather (Good)",
+   "armor": 3,
+   "resist": 3,
+   "description": "",
+   "descriptionG": " Physical Armor  :3 Magical Armor : 3"
+ },
+ {
+   "name": "Wild Leather (Bad)",
+   "armor": 2,
+   "resist": 0,
+   "description": "",
+   "descriptionG": " Physical Armor  :2 Magical Armor : 0"
+ },
+ {
+   "name": "Wild Leather (Normal)",
+   "armor": 3,
+   "resist": 1,
+   "description": "",
+   "descriptionG": " Physical Armor  :3 Magical Armor : 1"
+ },
+ {
+   "name": "Wild Leather (Good)",
+   "armor": 4,
+   "resist": 2,
+   "description": "",
+   "descriptionG": " Physical Armor  :4 Magical Armor : 2"
+ },
+ {
+   "name": "Blessed Leather (Bad)",
+   "armor": 1,
+   "resist": 2,
+   "description": "",
+   "descriptionG": " Physical Armor  :1 Magical Armor : 2"
+ },
+ {
+   "name": "Blessed Leather (Normal)",
+   "armor": 1,
+   "resist": 3,
+   "description": "",
+   "descriptionG": " Physical Armor  :1 Magical Armor : 3"
+ },
+ {
+   "name": "Blessed Leather (Good)",
+   "armor": 2,
+   "resist": 4,
+   "description": "",
+   "descriptionG": " Physical Armor  :2 Magical Armor : 4"
+ },
+ {
+   "name": "Plate (Bad)",
+   "armor": 2,
+   "resist": 0,
+   "description": "Heavy armor",
+   "descriptionG": "Heavy armor Physical Armor  :2 Magical Armor : 0"
+ },
+ {
+   "name": "Plate (Good)",
+   "armor": 4,
+   "resist": 0,
+   "description": "Heavy armor",
+   "descriptionG": "Heavy armor Physical Armor  :4 Magical Armor : 0"
+ },
+ {
+   "name": "Plate (Good)",
+   "armor": 6,
+   "resist": 0,
+   "description": "Heavy armor",
+   "descriptionG": "Heavy armor Physical Armor  :6 Magical Armor : 0"
+ },
+ {
+   "name": "Dwarf Plate (Bad)",
+   "armor": 4,
+   "resist": 0,
+   "description": "Heavy armor ; Move Speed - 2M",
+   "descriptionG": "Heavy armor ; Move Speed - 2M Physical Armor  :4 Magical Armor : 0"
+ },
+ {
+   "name": "Dwarf Plate (Normal)",
+   "armor": 6,
+   "resist": 0,
+   "description": "Heavy armor ; Move Speed - 2M",
+   "descriptionG": "Heavy armor ; Move Speed - 2M Physical Armor  :6 Magical Armor : 0"
+ },
+ {
+   "name": "Dwarf Plate (Good)",
+   "armor": 8,
+   "resist": 0,
+   "description": "Heavy armor ; Move Speed - 2M",
+   "descriptionG": "Heavy armor ; Move Speed - 2M Physical Armor  :8 Magical Armor : 0"
+ },
+ {
+   "name": "Infused Plate (Bad)",
+   "armor": 2,
+   "resist": 0,
+   "description": "Heavy armor",
+   "descriptionG": "Heavy armor Physical Armor  :2 Magical Armor : 0"
+ },
+ {
+   "name": "Infused Plate (Normal)",
+   "armor": 4,
+   "resist": 0,
+   "description": "Heavy armor ; 1 Infusion Slot",
+   "descriptionG": "Heavy armor ; 1 Infusion Slot Physical Armor  :4 Magical Armor : 0"
+ },
+ {
+   "name": "Infused Plate (Good)",
+   "armor": 6,
+   "resist": 0,
+   "description": "Heavy armor ; 1 Infusion Slot ",
+   "descriptionG": "Heavy armor ; 1 Infusion Slot  Physical Armor  :6 Magical Armor : 0"
+ }
+]

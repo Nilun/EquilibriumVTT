@@ -1,0 +1,626 @@
+[
+ {
+   "name": "Short sword (Bad)",
+   "damage": "1D6-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Short sword (Normal)",
+   "damage": "1D6+0",
+   "description": "Attack with 3 or less focus deal 1 More damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Short sword (Good)",
+   "damage": "1D6+1",
+   "description": "Attack with 3 or less focus deal 2 More damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Long Sword (Bad)",
+   "damage": "1D6+0",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Long Sword (Normal)",
+   "damage": "1D6+1",
+   "description": "Attack with 3 or more focus deal 1 More damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Long Sword (Good)",
+   "damage": "1D6+2",
+   "description": "Attack with 3 or more focus deal 2 More damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Curved Sword (Bad)",
+   "damage": "1D6-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Curved Sword (Normal)",
+   "damage": "1D6+1",
+   "description": "Attack with 3 or less focus deal 1 Bleeding",
+   "FIELD4": ""
+ },
+ {
+   "name": "Curved Sword (Good)",
+   "damage": "1D6+1",
+   "description": "Attack with 3 or less focus deal 2 Bleeding",
+   "FIELD4": ""
+ },
+ {
+   "name": "Bastard Sword (Bad 1H)",
+   "damage": "1D6+1",
+   "description": "When attacking in Swiftness with that weapon you have to Spend Half of this amount in Brutality | When attacking in Brutality with that weapon you have to Spend Half of this amount in swiftness",
+   "FIELD4": "1 Hand Version ( Need the 2 one hand version for damage) "
+ },
+ {
+   "name": "Bastard Sword (Bad 2h)",
+   "damage": "2D8+0",
+   "description": "When attacking in Swiftness with that weapon you have to Spend Half of this amount in Brutality | When attacking in Brutality with that weapon you have to Spend Half of this amount in swiftness",
+   "FIELD4": "2 Hand Version ( Need the 1 one hand version for damage) "
+ },
+ {
+   "name": "Bastard Sword (Normal 1H)",
+   "damage": "1D6+2",
+   "description": "When attacking in Swiftness with that weapon you have to Spend Half of this amount in Brutality | When attacking in Brutality with that weapon you have to Spend Half of this amount in swiftness",
+   "FIELD4": "1 Hand Version ( Need the 2 one hand version for damage)"
+ },
+ {
+   "name": "Bastard Sword (Normal 2H)",
+   "damage": "2D8+1",
+   "description": "When attacking in Swiftness with that weapon you have to Spend Half of this amount in Brutality | When attacking in Brutality with that weapon you have to Spend Half of this amount in swiftness",
+   "FIELD4": "2 Hand Version ( Need the 1 one hand version for damage)"
+ },
+ {
+   "name": "Bastard Sword (Good 1H)",
+   "damage": "1D6+3",
+   "description": "When attacking in Swiftness with that weapon you have to Spend Half of this amount in Brutality | When attacking in Brutality with that weapon you have to Spend Half of this amount in swiftness",
+   "FIELD4": "2 Hand Version ( Need the 1 one hand version for damage)"
+ },
+ {
+   "name": "Bastard Sword (Good 2H)",
+   "damage": "2D8+2",
+   "description": "When attacking in Swiftness with that weapon you have to Spend Half of this amount in Brutality | When attacking in Brutality with that weapon you have to Spend Half of this amount in swiftness",
+   "FIELD4": "2 Hand Version ( Need the 1 one hand version for damage)"
+ },
+ {
+   "name": "Hand Axe (Bad)",
+   "damage": "1D6-1",
+   "description": "Can be thrown with a malus of 1 Focus",
+   "FIELD4": ""
+ },
+ {
+   "name": "Hand Axe (Normal)",
+   "damage": "1D6+1",
+   "description": "Can be thrown",
+   "FIELD4": ""
+ },
+ {
+   "name": "Hand Axe (Good)",
+   "damage": "1D6+1",
+   "description": "Can be thrown with a bonus of 1 Focus",
+   "FIELD4": ""
+ },
+ {
+   "name": "Broad Axe (Bad)",
+   "damage": "1D8-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Broad Axe (Normal)",
+   "damage": "1D8+1",
+   "description": "Attack with 4 or more focus deal 1D4-1 Bonus damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Broad Axe (Good)",
+   "damage": "1D8+1",
+   "description": "Attack with 3 or more focus deal 1D4-1 Bonus damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Heavy Axe (Bad)",
+   "damage": "1D8-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Heavy Axe (Normal)",
+   "damage": "1D8+1",
+   "description": "Attack with 3 or more focus get a bonus Focus against shield",
+   "FIELD4": ""
+ },
+ {
+   "name": "Heavy Axe (Good)",
+   "damage": "1D8+1",
+   "description": "Attack with 2 or more focus get a bonus Focus against shield",
+   "FIELD4": ""
+ },
+ {
+   "name": "Club (Bad)",
+   "damage": "1D6-1",
+   "description": " Non Lethal , Easily hidden : Stealth +1 for hiding it",
+   "FIELD4": ""
+ },
+ {
+   "name": "Club (Normal)",
+   "damage": "1D6+1",
+   "description": " Non Lethal , Easily hidden : Stealth +1 for hiding it",
+   "FIELD4": ""
+ },
+ {
+   "name": "Club (Good)",
+   "damage": "1D6+1",
+   "description": " Non Lethal , Easily hidden : Stealth +1 for hiding it",
+   "FIELD4": ""
+ },
+ {
+   "name": "Flanged Mace (Bad)",
+   "damage": "1D6+0",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Flanged Mace (Normal)",
+   "damage": "1D6+1",
+   "description": "ttack with 3 or more focus deal 1D2 Piercing Bonus damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Flanged Mace (Good)",
+   "damage": "1D6+1",
+   "description": "ttack with 2 or more focus deal 1D2 Piercing Bonus damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Heavy Mace (Bad)",
+   "damage": "1D8-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Heavy Mace (Normal)",
+   "damage": "1D6+1",
+   "description": " Attack with 3 or more focus reduce at random a focus from the opponent by 1",
+   "FIELD4": ""
+ },
+ {
+   "name": "Heavy Mace (Good)",
+   "damage": "1D8+0",
+   "description": "Attack with 2 or more focus reduce at random a focus from the opponent by 1",
+   "FIELD4": ""
+ },
+ {
+   "name": "Claymore (Bad)",
+   "damage": "2D8-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Claymore (Normal)",
+   "damage": "2D8+1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Claymore (Good)",
+   "damage": "2D8+2",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Zweihander (Bad)",
+   "damage": "2D8+0",
+   "description": "Attack with weapon cost 1 More Brutality focus and your movement speed is reduced by 3",
+   "FIELD4": ""
+ },
+ {
+   "name": "Zweihander (Normal)",
+   "damage": "2D8+2",
+   "description": "Your movement speed is reduced by 3",
+   "FIELD4": ""
+ },
+ {
+   "name": "Zweihander (Good)",
+   "damage": "2D8+3",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Flamberge (Bad)",
+   "damage": "2D8-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Flamberge (normal)",
+   "damage": "2D8+1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Flamberge (Good)",
+   "damage": "2D8+1",
+   "description": "Your intimidation Skill have 1 bonus focus",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Axe (Bad)",
+   "damage": "2D8+0",
+   "description": "this weapon have 1D4 -2 Damage bonus",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Axe (Normal)",
+   "damage": "2D8+0",
+   "description": " this weapon have 1D4 -1 Damage bonus",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Axe (Good)",
+   "damage": "2D8+0",
+   "description": " this weapon have 1D4 Damage bonus",
+   "FIELD4": ""
+ },
+ {
+   "name": "Two Handed axe (Bad)",
+   "damage": "2D8-2",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Two Handed axe (Normal)",
+   "damage": "2D8+2",
+   "description": " When charging deal 1D4 Bonus damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Two Handed axe (Good)",
+   "damage": "2D8+2",
+   "description": " When charging deal 2D4 Bonus damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Club (Bad)",
+   "damage": "2D8-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Club (Normal)",
+   "damage": "2D8+1",
+   "description": "Damage with that weapon remove a random focus",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Club (Good)",
+   "damage": "2D8+2",
+   "description": "Damage with that weapon remove a focus of your choice",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Heavy mace (Bad)",
+   "damage": "2D8+0",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Heavy mace (Normal)",
+   "damage": "2D8+1",
+   "description": "Damage + 1 against heavy armored target",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Heavy mace (Good)",
+   "damage": "2D8+3",
+   "description": "Damage + 1D4 against heavy armored target",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Warhammer (Bad)",
+   "damage": "1D8+0",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Warhammer (Normal)",
+   "damage": "1D8+3",
+   "description": "Deal 2 piercing damage if more than 2 focus are spend to attack",
+   "FIELD4": ""
+ },
+ {
+   "name": "Great Warhammer (Good)",
+   "damage": "1D8+6",
+   "description": "Deal 2 piercing damage if more than 1 focus are spend to attack",
+   "FIELD4": ""
+ },
+ {
+   "name": "Long Bow (Bad)",
+   "damage": "0D0+2",
+   "description": "Cost 2 Energy ; 20M of range",
+   "FIELD4": ""
+ },
+ {
+   "name": "Long Bow (Normal)",
+   "damage": "0D0+4",
+   "description": "Cost 2 Energy ; Add 23M of range",
+   "FIELD4": ""
+ },
+ {
+   "name": "Long Bow (Good)",
+   "damage": "0D0+6",
+   "description": "Cost 2 Energy ; 28M of range",
+   "FIELD4": ""
+ },
+ {
+   "name": "Short Bow (Bad)",
+   "damage": "0D0+1",
+   "description": "Cost 1 Energy to use ;  11M of range",
+   "FIELD4": ""
+ },
+ {
+   "name": "Short Bow (Normal)",
+   "damage": "0D0+2",
+   "description": "Cost 1 Energy to use ;  12M of range",
+   "FIELD4": ""
+ },
+ {
+   "name": "Short Bow (Good)",
+   "damage": "0D0+3",
+   "description": "Cost 1 Energy to use ;  Range 14M",
+   "FIELD4": ""
+ },
+ {
+   "name": "Dagger (Bad)",
+   "damage": "1D4+1",
+   "description": "Add 1 Damage From behind",
+   "FIELD4": ""
+ },
+ {
+   "name": "Dagger (Normal)",
+   "damage": "2D4+0",
+   "description": "Add 1D4 Damage From behind",
+   "FIELD4": ""
+ },
+ {
+   "name": "Dagger (Good)",
+   "damage": "2D4+2",
+   "description": "Add 1d4+2 Damage From behind",
+   "FIELD4": ""
+ },
+ {
+   "name": "Dirk (Bad)",
+   "damage": "1D4+0",
+   "description": " Add 1 piercing Damage From behind",
+   "FIELD4": ""
+ },
+ {
+   "name": "Dirk (Normal)",
+   "damage": "1D4+2",
+   "description": " Add 2 piercing Damage From behind",
+   "FIELD4": ""
+ },
+ {
+   "name": "Dirk (Good)",
+   "damage": "2D4+3",
+   "description": " Add 4 piercing Damage From behind",
+   "FIELD4": ""
+ },
+ {
+   "name": "Rapiere (Bad)",
+   "damage": "1D6+0",
+   "description": "While in duel deal 2 more damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Rapiere (Normal)",
+   "damage": "1D6+1",
+   "description": "While in duel deal 4 more damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Rapiere (Good)",
+   "damage": "1D6+2",
+   "description": "While in duel deal 6 more damage",
+   "FIELD4": ""
+ },
+ {
+   "name": " Throwing Hachet (Bad)",
+   "damage": "1D6+0",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": " Throwing Hachet (Normal)",
+   "damage": "1D6+3",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Throwing knife (Bad)",
+   "damage": "1D4+0",
+   "description": "+1 Piercing damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Throwing knife (Normal)",
+   "damage": "1D4+0",
+   "description": "+2 Piercing damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Poisoned dart ",
+   "damage": "1D6+0",
+   "description": "2 Poison for 3 T",
+   "FIELD4": ""
+ },
+ {
+   "name": "Flaming dart",
+   "damage": "1D6+0",
+   "description": "+ 2 Magical damage",
+   "FIELD4": ""
+ },
+ {
+   "name": " Throwing Bleeding Knife",
+   "damage": "1D4+0",
+   "description": "Apply 3 Bleeding",
+   "FIELD4": ""
+ },
+ {
+   "name": "Fist (Everyone)",
+   "damage": "1D2+0",
+   "description": "",
+   "FIELD4": "Your bare fist"
+ },
+ {
+   "name": "Fist (Trained)",
+   "damage": "1D4-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Fist (Expert)",
+   "damage": "2D4-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Fist (Master)",
+   "damage": "3D4-1",
+   "description": "",
+   "FIELD4": ""
+ },
+ {
+   "name": "Poor arrow",
+   "damage": "1D6+0",
+   "description": "+ 1d4",
+   "FIELD4": ""
+ },
+ {
+   "name": "Normal arrow",
+   "damage": "1D8+0",
+   "description": "+ 1d4",
+   "FIELD4": ""
+ },
+ {
+   "name": "Piercing arrow",
+   "damage": "1D8+0",
+   "description": "+ 1d4 +2 Piercing",
+   "FIELD4": ""
+ },
+ {
+   "name": "Fire arrow",
+   "damage": "1D8+0",
+   "description": "+ 1d4 + 1d4 Magical damage as Fire",
+   "FIELD4": ""
+ },
+ {
+   "name": "Magical arrow",
+   "damage": "1D8+0",
+   "description": "+ 1d4 + 2 (all Magical damage )",
+   "FIELD4": ""
+ },
+ {
+   "name": "Bleeding arrow ",
+   "damage": "1D8+0",
+   "description": "+ 1d4 + 2 Bleeding",
+   "FIELD4": ""
+ },
+ {
+   "name": "Slow arrow",
+   "damage": "1D6+0",
+   "description": "Reduce target speed by 3M for 3T",
+   "FIELD4": ""
+ },
+ {
+   "name": "Ice arrow",
+   "damage": "1D8+0",
+   "description": "Create a Ice surface all target inside must spend 1 Swiftness to get out (2M of radius for 3T)",
+   "FIELD4": ""
+ },
+ {
+   "name": "Shock arrow",
+   "damage": "1D6+0",
+   "description": "Target lose 2 Focus (of his choice)",
+   "FIELD4": ""
+ },
+ {
+   "name": "Percute Arrow",
+   "damage": "1D6+0",
+   "description": "Push the target by 3M",
+   "FIELD4": ""
+ },
+ {
+   "name": "Burning Arrow",
+   "damage": "1D6+0",
+   "description": "Deal a Burn of 2 For 3 T",
+   "FIELD4": ""
+ },
+ {
+   "name": "Clap Arrow",
+   "damage": "1D6+0",
+   "description": "In a radius of 5M All channeling and concentration are break",
+   "FIELD4": ""
+ },
+ {
+   "name": "Wind Arrow",
+   "damage": "1D8+0",
+   "description": "+ 1d4 this arrow have an extra range of 5M",
+   "FIELD4": ""
+ },
+ {
+   "name": "Holy Water Arrow",
+   "damage": "1D4+0",
+   "description": "As healing And Reduce By 2T One Malus",
+   "FIELD4": ""
+ },
+ {
+   "name": "Smoke Arrow",
+   "damage": "0D0+0",
+   "description": "Create a smoke cloud of radius of 3M , targets inside can't be targeted by the outside and they can't target the outside",
+   "FIELD4": ""
+ },
+ {
+   "name": "Cursed Arrow",
+   "damage": "1D8+0",
+   "description": "Reduce healing by 50% for 3",
+   "FIELD4": ""
+ },
+ {
+   "name": "Weak Splot Arrow",
+   "damage": "1D6+0",
+   "description": "+1d4 For 2T The target suffer 1d4 Damage each time they suffer damage",
+   "FIELD4": ""
+ },
+ {
+   "name": "Trick Arrow",
+   "damage": "0D0+0",
+   "description": "Target lose 1 Vitality if the target don’t have vitality they lose 2 focus of your choice",
+   "FIELD4": ""
+ },
+ {
+   "name": "(Bad) Slingshot",
+   "damage": "1D0+0",
+   "description": "Have a range of 10M and can throw stone and other thing",
+   "FIELD4": ""
+ },
+ {
+   "name": "(Normal) Slingshot",
+   "damage": "1D0+0",
+   "description": "Have a range of 12M and can throw stone and other thing",
+   "FIELD4": ""
+ },
+ {
+   "name": "(good) Slingshot",
+   "damage": "1D0+0",
+   "description": "Have a range of 15M and can throw stone and other thing",
+   "FIELD4": ""
+ }
+]

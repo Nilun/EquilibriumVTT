@@ -17,6 +17,18 @@
                 <input type="text" name="data.damage" value="{{data.damage}}" />
             </div>
             {{/if}}
+            {{#if data.physicalArmor}}
+            <div class="resource">
+                <label>{{localize "EQUILIBRIUM.PhysicalArmor"}}</label>
+                <input type="text" name="data.physicalArmor" value="{{data.physicalArmor}}" />
+            </div>
+            {{/if}}
+            {{#if data.magicalArmor}}
+            <div class="resource">
+                <label>{{localize "EQUILIBRIUM.MagicalArmor"}}</label>
+                <input type="text" name="data.magicalArmor" value="{{data.magicalArmor}}" />
+            </div>
+            {{/if}}
         </div>
     </header>
 
