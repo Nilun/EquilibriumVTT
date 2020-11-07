@@ -9,12 +9,12 @@ export class SimpleActorSheet extends ActorSheet {
       classes: ["Equilibrium", "sheet", "actor"],
       template: "systems/Equilibrium/templates/actor-sheet.html",
       width: 600,
-      height: 600,
+      height: 820,
       tabs: [
         {
           navSelector: ".sheet-tabs",
           contentSelector: ".sheet-body",
-          initial: "description",
+          initial: "skills",
         },
       ],
       dragDrop: [{ dragSelector: ".item-list .item", dropSelector: null }],
@@ -104,14 +104,6 @@ export class SimpleActorSheet extends ActorSheet {
 
   /* -------------------------------------------- */
 
-  /** @override */
-  setPosition(options = {}) {
-    const position = super.setPosition(options);
-    const sheetBody = this.element.find(".sheet-body");
-    const bodyHeight = position.height - 192;
-    sheetBody.css("height", bodyHeight);
-    return position;
-  }
 
   /* -------------------------------------------- */
 
@@ -134,8 +126,8 @@ export class SimpleActorSheet extends ActorSheet {
           arr[1].push(item);
           break;
         case "armor":
-          physical = item.data.physicalArmor;
-          magical = item.data.magicalArmor;
+          physical += parseInt(item.data.physicalArmor);
+          magical += parseInt(item.data.magicalArmor);
           arr[2].push(item);
           break;
         case "passif":

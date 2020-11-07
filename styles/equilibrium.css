@@ -8,6 +8,16 @@
   padding: 5px;
   overflow-y: hidden;
 }
+.Equilibrium .window-content form {
+  height: 100%;
+  overflow: hidden;
+}
+.Equilibrium .Equilibrium-sheet {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
 .Equilibrium ul,
 .Equilibrium ol {
   padding: 0;
@@ -32,11 +42,17 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
 .Equilibrium .sheet-header .header-image {
   width: 110px;
   flex: none;
+}
+.Equilibrium .sheet-header .armor-info ul {
+  margin: 2px;
+}
+.Equilibrium .sheet-header .armor-info .armor-display {
+  width: 30px;
 }
 .Equilibrium .sheet-header .top-info {
   justify-content: space-between;
@@ -204,6 +220,7 @@
   text-shadow: none;
 }
 .Equilibrium .sheet-body {
+  flex: 1;
   overflow: hidden;
 }
 .Equilibrium .sheet-body .tab {

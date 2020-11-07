@@ -144,20 +144,6 @@ function (_ActorSheet) {
     }
     /* -------------------------------------------- */
 
-    /** @override */
-
-  }, {
-    key: "setPosition",
-    value: function setPosition() {
-      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
-      var position = _get(_getPrototypeOf(SimpleActorSheet.prototype), "setPosition", this).call(this, options);
-
-      var sheetBody = this.element.find(".sheet-body");
-      var bodyHeight = position.height - 192;
-      sheetBody.css("height", bodyHeight);
-      return position;
-    }
     /* -------------------------------------------- */
 
   }, {
@@ -223,8 +209,8 @@ function (_ActorSheet) {
                     break;
 
                   case "armor":
-                    physical = item.data.physicalArmor;
-                    magical = item.data.magicalArmor;
+                    physical += parseInt(item.data.physicalArmor);
+                    magical += parseInt(item.data.magicalArmor);
                     arr[2].push(item);
                     break;
 
@@ -412,11 +398,11 @@ function (_ActorSheet) {
         classes: ["Equilibrium", "sheet", "actor"],
         template: "systems/Equilibrium/templates/actor-sheet.html",
         width: 600,
-        height: 600,
+        height: 820,
         tabs: [{
           navSelector: ".sheet-tabs",
           contentSelector: ".sheet-body",
-          initial: "description"
+          initial: "skills"
         }],
         dragDrop: [{
           dragSelector: ".item-list .item",

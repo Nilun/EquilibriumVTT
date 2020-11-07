@@ -3,6 +3,18 @@
     height: 100%;
     padding: 5px;
     overflow-y: hidden;
+
+    form {
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .Equilibrium-sheet {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
   }
 
   ul,
@@ -34,13 +46,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 
     .header-image {
       width: 110px;
       flex: none;
     }
 
+    .armor-info {
+      ul {
+        margin: 2px
+      }
+      .armor-display {
+        width:30px
+      }
+    }
     .top-info {
       justify-content: space-between;
       padding-bottom: 2px;
@@ -68,6 +88,7 @@
       border: none;
       background: none;
     }
+
 
     .value {
       input {
@@ -244,6 +265,7 @@
   }
 
   .sheet-body {
+    flex: 1;
     overflow: hidden;
     .tab {
       height: 100%;

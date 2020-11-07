@@ -20,10 +20,28 @@ export class SimpleItemSheet extends ItemSheet {
   /** @override */
   getData() {
     const data = super.getData();
-    data.dtypes = ["String", "Number", "Boolean"];
-    // for ( let attr of Object.values(data.data.attributes) ) {
-    //   attr.isCheckbox = attr.dtype === "Boolean";
-    // }
+    switch (data.item.type) {
+      case "weapon":
+        data.hasDamage = true;
+        data.hasQuantity = true;
+        break;
+      case "armor":
+        data.hasPhysicalArmor = true;
+        data.hasMagicalArmor = true;
+        data.hasQuantity = true;
+        break;
+      case "passif":
+        data.hasQuantity = true;
+        break;
+      case "spell":
+        data.hasDamage = true;
+        break;
+      case "technic":
+        break;
+      default:
+        data.hasQuantity = true;
+        break;
+    }
     return data;
   }
 

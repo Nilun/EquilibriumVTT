@@ -28,7 +28,7 @@ Hooks.once("init", function _callee() {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          console.log("Initializing Simple Worldbuilding System");
+          console.log("Initializing Equilibrium System");
           /**
            * Set an initiative formula for the system
            * @type {String}
@@ -136,19 +136,19 @@ Hooks.once("init", function _callee() {
           });
           Items.registerSheet("equilibrium", _spellSheet.SpellItemSheet, {
             makeDefault: false
-          }); // Register system settings
+          }); // // Register system settings
+          // game.settings.register("worldbuilding", "macroShorthand", {
+          //   name: "Shortened Macro Syntax",
+          //   hint: "Enable a shortened macro syntax which allows referencing attributes directly, for example @str instead of @attributes.str.value. Disable this setting if you need the ability to reference the full attribute model, for example @attributes.str.label.",
+          //   scope: "world",
+          //   type: Boolean,
+          //   default: true,
+          //   config: true
+          // });
 
-          game.settings.register("worldbuilding", "macroShorthand", {
-            name: "Shortened Macro Syntax",
-            hint: "Enable a shortened macro syntax which allows referencing attributes directly, for example @str instead of @attributes.str.value. Disable this setting if you need the ability to reference the full attribute model, for example @attributes.str.label.",
-            scope: "world",
-            type: Boolean,
-            "default": true,
-            config: true
-          });
           console.log("Initialized equilibrium");
 
-        case 17:
+        case 16:
         case "end":
           return _context.stop();
       }
