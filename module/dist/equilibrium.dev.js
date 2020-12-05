@@ -4,7 +4,7 @@ var _actor = require("./actor.js");
 
 var _itemSheet = require("./item-sheet.js");
 
-var _actorSheet = require("./actor-sheet.js");
+var _actorSheet = _interopRequireDefault(require("./actor-sheet.js"));
 
 var _passifSheet = require("./passif-sheet.js");
 
@@ -121,7 +121,7 @@ Hooks.once("init", function _callee() {
           CONFIG.Item.entityClass = _item["default"]; // Register sheet application classes
 
           Actors.unregisterSheet("core", ActorSheet);
-          Actors.registerSheet("equilibrium", _actorSheet.SimpleActorSheet, {
+          Actors.registerSheet("equilibrium", _actorSheet["default"], {
             makeDefault: true
           });
           Items.unregisterSheet("core", ItemSheet);

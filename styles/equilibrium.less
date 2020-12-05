@@ -284,14 +284,14 @@
     margin: 7px 0;
     padding: 0;
     overflow-y: auto;
-
+  }
     .item {
       height: 30px;
       line-height: 24px;
       padding: 3px 0;
       border-bottom: 1px solid #bbb;
 
-      &.rollable .item-img {
+      &.rollable .item-img, .rollable .item-img{
         &:hover {
           background-image: url("/icons/svg/d20-black.svg") !important;
         }
@@ -299,6 +299,7 @@
 
       .item-img {
         background-size: 24px;
+        background-repeat: no-repeat;
         flex: 0 0 24px;
         margin-right: 5px;
       }
@@ -311,7 +312,7 @@
     .item-controls {
       flex: 0 0 36px;
     }
-  }
+  
 
   /* Attributes */
   .attributes-header {

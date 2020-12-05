@@ -2,9 +2,9 @@
   "name": "Equilibrium",
   "title": "Equilibrium Role Play System",
   "description": ".",
-  "version": 0.046,
+  "version": 0.047,
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.8",
   "templateVersion": 5,
   "author": "Jupotter & Nilun",
   "esmodules": ["module/equilibrium.js"],
@@ -39,7 +39,7 @@
   "url": "https://github.com/Nilun/EquilibriumVTT",
   "manifest": "https://raw.githubusercontent.com/Nilun/EquilibriumVTT/master/system.json",
   "license": "LICENSE.txt",
-  "download": "https://github.com/Nilun/EquilibriumVTT/archive/v0.046.zip",
+  "download": "https://github.com/Nilun/EquilibriumVTT/archive/master.zip",
   "languages": [
     {
       "lang": "en",

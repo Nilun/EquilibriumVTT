@@ -1,7 +1,7 @@
 // Import Modules
 import { SimpleActor } from "./actor.js";
 import { SimpleItemSheet } from "./item-sheet.js";
-import { SimpleActorSheet } from "./actor-sheet.js";
+import SimpleActorSheet from "./actor-sheet.js";
 import { PassifItemSheet } from "./passif-sheet.js";
 import { ComponentItemSheet } from "./component-sheet.js";
 import { SpellItemSheet } from "./spell-sheet.js";
